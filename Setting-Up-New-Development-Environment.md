@@ -1,18 +1,22 @@
 (Assuming OS X Mavericks)
 
 install xcode
+
 (install iterm)
+
 install homebrew
-- run brew doctor and fix all issues
-install git
-- brew install git
-install wget
-- brew install wget
+run brew doctor and fix all issues
+brew install git
+brew install postgresql
+
+install rvm
 
 clone the repo
 
+install the ruby version it asks for
+
 run bundle
 
-rails s
+run rails s
 
-s
+voila!
