@@ -47,3 +47,12 @@ For all sorts of Facebookin'.
 - cooksupport@josephine.com – For cooks to talk with us ('til the singularity)
 - accounts@josephine.com – We use this email for all accounts we sign up for (see the Accounts doc)
 
+**Google Analytics**
+
+For all sorts of analytic'ing.
+
+**Oakstop**
+
+- Rooms (Liquid Spaces)
+- Welcomt Form
+- Listserv
