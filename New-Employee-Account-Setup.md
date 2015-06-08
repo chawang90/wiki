@@ -37,7 +37,10 @@ As we add more people to Pivotal I'll be making sure it's always clean and up-to
 
 **Facebook Page**
 
-You're now on the following email groups...
+For all sorts of Facebookin'.
+
+**Email Groups**
+
 - team@josephine.com – We should all use this when communicating together. 
 - hello@josephine.com – Our contact email on the website.
 - cooks@josephine.com – Mailing list for cooks to talk amongst themselves ('til we have a forum)
