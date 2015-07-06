@@ -1,31 +1,60 @@
 (Assuming OS X Mavericks)
 
-install xcode
+1. install xcode
+1. install iterm
+1. install homebrew
+1. run brew doctor and fix all issues
+1. brew install git
+1. brew install postgresql
+1. install rvm
+1. clone the repo
+1. install the ruby version it asks for
 
-(install iterm)
+Add the rvm bootstrapper to your `~/.profile`, `.zshrc`, or whatever:
 
-install homebrew
-run brew doctor and fix all issues
-brew install git
-brew install postgresql
+```
+source ~/.rvm/scripts/rvm
+```
 
-install rvm
+Install QT for integration tests (capybara depends on nokogiri):
 
-clone the repo
+```
+brew install qt
+```
 
-install the ruby version it asks for
+Install bundler:
 
-run bundle
+```
+gem install bundler
+bundle
+```
 
-install heroku toolbelt
+Download and install the [Heroku Toolbelt](https://toolbelt.heroku.com/)
 
-add production & staging remotes
+Add production & staging Heroku git remotes:
+
+```
 git remote add production git@heroku.com:josephine-members.git
 git remote add staging git@heroku.com:josephine-staging.git
+```
 
-copy production database
+Set up AWS for S3 assets. (Get access keys from Tal)
+
+```
+brew install awscli
+aws configure
+```
+
+Copy production database:
+
+```
 sh lib/scripts/copy_production_to_development.sh
+```
 
-run rails s -- should work!
+Run the rails server!
 
-voila!
+```
+rails s
+```
+
+Open [localhost:3000](http://localhost:3000). Voila!
