@@ -1,14 +1,13 @@
-(Assuming OS X Mavericks)
+(Assuming OS X Yosemite)
 
-1. install xcode
-1. install iterm
-1. install homebrew
-1. run brew doctor and fix all issues
-1. brew install git
-1. brew install postgresql
-1. install rvm
-1. clone the repo
-1. install the ruby version it asks for
+1. Install XCode with command line tools.
+1. Install homebrew
+1. Run `brew doctor` and fix all issues
+1. Run `brew install git`
+1. Run `brew install postgresql`
+1. Install rvm
+1. Clone the repo.
+1. Install Ruby version 2.1.0: `rvm install 2.1.0p0`
 
 Add the rvm bootstrapper to your `~/.profile`, `.zshrc`, or whatever:
 
