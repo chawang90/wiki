@@ -1,29 +1,41 @@
-(Assuming OS X Yosemite)
+# Setting Up the Development Environment
 
-1. Install XCode with command line tools.
-1. Install homebrew
-1. Run `brew doctor` and fix all issues
-1. Run `brew install git`
-1. Run `brew install postgresql`
-1. Install rvm
-1. Clone the repo.
-1. Install Ruby version 2.1.0: `rvm install 2.1.0p0`
+This setup guide assumes you're using OS X Mavericks.
 
-Add the rvm bootstrapper to your `~/.profile`, `.zshrc`, or whatever:
+Install xcode. When it's done you might need to also install the command line tools with this command:
+
+```
+xcode-select --install
+```
+
+Install homebrew. There's a one-liner at [http://brew.sh/](http://brew.sh/).
+Then brew install some stuff needed by rvm and capybara/nokogiri:
+
+```
+brew install gpg qt postgresql awscli
+```
+
+Clone the repo
+
+```
+git clone git@github.com:josephine/josephine.git
+```
+
+## Rubies
+
+Install rvm. There's a two-liner at [https://rvm.io/](https://rvm.io/).
+Then add the rvm bootstrapper to your `~/.profile`, `.zshrc`, or whatever:
 
 ```
 source ~/.rvm/scripts/rvm
 ```
 
-Install QT for integration tests (capybara depends on nokogiri):
-
-```
-brew install qt
-```
+When you `cd` into the josephine app directory, you'll know `rvm` is working because you'll see a warning that says something like
 
 Install bundler:
 
 ```
+cd josephine
 gem install bundler
 bundle
 ```
@@ -40,9 +52,10 @@ git remote add staging git@heroku.com:josephine-staging.git
 Set up AWS for S3 assets. (Get access keys from Tal)
 
 ```
-brew install awscli
 aws configure
 ```
+
+Enter access key and secret access key. Leave the `region name` and `output format` blank.
 
 Copy production database:
 
@@ -53,7 +66,15 @@ sh lib/scripts/copy_production_to_development.sh
 Run the rails server!
 
 ```
-rails s
+rails server
 ```
 
 Open [localhost:3000](http://localhost:3000). Voila!
+
+## Running Tests
+
+```
+rake db:create db:migrate
+rake db:test:prepare
+rspec spec/features
+```
