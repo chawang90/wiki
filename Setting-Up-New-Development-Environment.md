@@ -2,11 +2,15 @@
 
 This setup guide assumes you're using OS X Mavericks.
 
+## xcode
+
 Install xcode. When it's done you might need to also install the command line tools with this command:
 
 ```
 xcode-select --install
 ```
+
+## Homebrew
 
 Install homebrew. There's a one-liner at [http://brew.sh/](http://brew.sh/).
 Then brew install some stuff needed by rvm and capybara/nokogiri:
@@ -15,13 +19,15 @@ Then brew install some stuff needed by rvm and capybara/nokogiri:
 brew install gpg qt postgresql awscli phantomjs
 ```
 
-Clone the repo
+## Git
+
+Clone the repo:
 
 ```
 git clone git@github.com:josephine/josephine.git
 ```
 
-## Rubies
+## Ruby
 
 Install rvm. There's a two-liner at [https://rvm.io/](https://rvm.io/).
 Then add the rvm bootstrapper to your `~/.profile`, `.zshrc`, or whatever:
@@ -39,6 +45,8 @@ cd josephine
 gem install bundler
 bundle
 ```
+
+## Heroku
 
 Download and install the [Heroku Toolbelt](https://toolbelt.heroku.com/)
 
@@ -58,6 +66,8 @@ heroku plugins:install git://github.com/ddollar/heroku-config.git
 heroku config:pull -r dev
 ```
 
+## AWS / Assets / Database
+
 Set up AWS for S3 assets. (Get access keys from Tal)
 
 ```
@@ -71,6 +81,8 @@ Copy production database:
 ```
 sh lib/scripts/copy_production_to_development.sh
 ```
+
+## Running the App
 
 Run the rails server!
 
