@@ -42,11 +42,20 @@ bundle
 
 Download and install the [Heroku Toolbelt](https://toolbelt.heroku.com/)
 
-Add production & staging Heroku git remotes:
+Add Heroku git remotes:
 
 ```
 git remote add production git@heroku.com:josephine-members.git
 git remote add staging git@heroku.com:josephine-staging.git
+git remote add dev git@heroku.com:josephine-dev.git
+```
+
+Pull down the development configuration. This will add all required environment
+variables to `.env`. See https://github.com/ddollar/heroku-config#usage for more info.
+
+```sh
+heroku plugins:install git://github.com/ddollar/heroku-config.git
+heroku config:pull -r dev
 ```
 
 Set up AWS for S3 assets. (Get access keys from Tal)
