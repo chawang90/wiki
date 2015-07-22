@@ -16,7 +16,7 @@ Install homebrew. There's a one-liner at [http://brew.sh/](http://brew.sh/).
 Then brew install some stuff needed by rvm and capybara/nokogiri:
 
 ```
-brew install gpg qt postgresql awscli phantomjs
+brew install gpg qt postgresql awscli phantomjs graphviz
 ```
 
 ## Git
