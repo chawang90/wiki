@@ -1,4 +1,5 @@
-== Josephine Coding Practices
+Josephine Coding Practices
+==========================
 
 Text Editor Configuration
 -------------------------
