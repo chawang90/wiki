@@ -54,4 +54,12 @@ open http://josephine.com/cooks/martha-stewart
 
 ![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/ha8s9srs.png)
 
+FINAL STEP
+==========
+
+Move the Trello card to **Cook Account Complete** and leave a comment. Remember to note whether or not the user had a password, or whether it is "sharing."
+
+![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/h7__cgbg.png)
+
 SO EASY!
+
