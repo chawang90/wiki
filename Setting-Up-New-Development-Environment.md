@@ -99,3 +99,31 @@ rake db:create db:migrate
 rake db:test:prepare
 rspec spec/features
 ```
+
+## Deployment
+
+Here's a handy shell function for deploying to production or staging.
+
+Drop it in your `~/.bashrc` or `~/.zshrc`:
+
+```sh
+function jodeploy {
+  if [ "$1" = "" ]; then
+    echo "Usage: jodeploy <remote-name>"
+    echo
+    echo "  jodeploy staging"
+    echo "  jodeploy production"
+  else
+    echo "Pushing to Github..." && git push origin HEAD &&
+    echo "Pushing to Heroku production..." && git push $1 master &&
+    echo "Migrating..." && heroku run rake db:migrate -r $1
+  fi
+}
+```
+
+Reload your shell, then:
+
+```
+jodeploy staging
+jodeploy production
+```
