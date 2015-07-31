@@ -32,9 +32,17 @@ total 4
 ```
 
 ### How does it work?
-`copy_database.sh` is a simple shell script that copies our production database over to the `josephine-reports` database. When it's done, it updates `copy_database.log` with a timestamp of each successful copy.
+Clever little `copy_database.sh` is a simple shell script that copies our production database over to the `josephine-reports` database. When it's done, it updates `copy_database.log` with a timestamp of each successful copy.
 
 We run this script through `chron` periodically to ensure a fresh and cleanclean database. Yay!
+
+Feel free to futz with the schedule by running:
+
+```bash
+[ec2-user@ip-172-31-29-123 ~]$ crontab -e
+```
+
+Refer to [this guide](http://www.thegeekstuff.com/2009/06/15-practical-crontab-examples/) if you don't remember `cron`'s annoying syntax. Time is in UTC (7 hours ahead). 
 
 ## Disclaimer
 This database uses real user data! So please be careful with it, ya jerk.
