@@ -1,10 +1,8 @@
-Josephine Reports
-==================
+# Josephine Reports
 
 We have a copy of the production database as a Heroku app called `josephine-reports`. We only use the database, and it only costs us $9 / month.
 
-Access
-------
+## Database Access
 
 You can access the database here:
 
@@ -12,16 +10,31 @@ You can access the database here:
 postgres://obdetgefhasynt:BocF6d7B00rnaDzSiW2QDBvfhI@ec2-54-235-134-128.compute-1.amazonaws.com:5432/d3pr6sq5o2dr7t
 ```
 
-Updating The Data
------------------
+## AWS Access
 
-You can give the reports database fresh data by being all like:
+We have an AWS instance whose sole purpose in life is to refresh the `josephine-reports` database at scheduled intervals. You'll need Google drive installed, with access to the `Development/Keys` directory.
 
+To connect:
+
+```bash
+ssh -i ~/Google\ Drive/Josephine/Development/Keys/JosephineReportsAWS.pem ec2-user@ec2-54-148-22-107.us-west-2.compute.amazonaws.com
 ```
-heroku pg:backups restore `heroku pg:backups public-url -r production` DATABASE_URL -r reports
+
+Sha-bam! You should be connected.
+
+There are two files in the home directory:
+
+```bash
+[ec2-user@ip-172-31-29-123 ~]$ ll
+total 4
+-rw-rw-r-- 1 ec2-user ec2-user   0 Jul 31 23:31 copy_database.log
+-rwxrwxr-x 1 ec2-user ec2-user 188 Jul 31 23:31 copy_database.sh
 ```
 
-Yo, idiot!
----------
+### How does it work?
+`copy_database.sh` is a simple shell script that copies our production database over to the `josephine-reports` database. When it's done, it updates `copy_database.log` with a timestamp of each successful copy.
 
-This uses real user data! So please be careful with it.
+We run this script through `chron` periodically to ensure a fresh and cleanclean database. Yay!
+
+## Disclaimer
+This database uses real user data! So please be careful with it, ya jerk.
