@@ -114,9 +114,10 @@ function jodeploy {
     echo "  jodeploy staging"
     echo "  jodeploy production"
   else
-    echo "Pushing to Github..." && git push origin HEAD &&
-    echo "Pushing to Heroku $1..." && git push $1 master &&
-    echo "Migrating..." && heroku run rake db:migrate -r $1
+    set -x
+    git push origin HEAD
+    git push $1 HEAD:master
+    heroku run rake db:migrate -r $1
   fi
 }
 ```
