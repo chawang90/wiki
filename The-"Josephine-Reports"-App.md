@@ -6,8 +6,12 @@ We have a copy of the production database as a Heroku app called `josephine-repo
 
 You can access the database here:
 
-```
-postgres://obdetgefhasynt:BocF6d7B00rnaDzSiW2QDBvfhI@ec2-54-235-134-128.compute-1.amazonaws.com:5432/d3pr6sq5o2dr7t
+```yaml
+username: obdetgefhasynt
+password: BocF6d7B00rnaDzSiW2QDBvfhI
+host: ec2-54-235-134-128.compute-1.amazonaws.com
+port: 5432
+database: d3pr6sq5o2dr7t
 ```
 
 ## AWS Access
@@ -22,17 +26,17 @@ ssh -i ~/Google\ Drive/Josephine/Development/Keys/JosephineReportsAWS.pem ec2-us
 
 Sha-bam! You should be connected.
 
-There are two files in the home directory:
+There are two files in the `reports` directory:
 
 ```bash
-[ec2-user@ip-172-31-29-123 ~]$ ll
+[ec2-user@ip-172-31-29-123 ~]$ ll reports
 total 4
 -rw-rw-r-- 1 ec2-user ec2-user   0 Jul 31 23:31 copy_database.log
--rwxrwxr-x 1 ec2-user ec2-user 188 Jul 31 23:31 copy_database.sh
+-rwxrwxr-x 1 ec2-user ec2-user 188 Jul 31 23:31 copy_database
 ```
 
 ### How does it work?
-Clever little `copy_database.sh` is a simple shell script that copies our production database over to the `josephine-reports` database. When it's done, it updates `copy_database.log` with a timestamp of each successful copy.
+Clever little `copy_database` is a simple shell script that copies our production database over to the `josephine-reports` database. When it's done, it updates `copy_database.log` with a timestamp of each successful copy.
 
 We run this script through `chron` periodically to ensure a fresh and cleanclean database. Yay!
 
