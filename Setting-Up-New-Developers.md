@@ -1,4 +1,4 @@
-# Setting Up the Development Environment
+# Setting Up  Your Development Environment
 
 This setup guide assumes you're using OS X Mavericks.
 
@@ -12,7 +12,8 @@ xcode-select --install
 
 ## Homebrew
 
-Install homebrew. There's a one-liner at [http://brew.sh/](http://brew.sh/).
+Install homebrew. There's a one-liner at [http://brew.sh/](http://brew.sh/). Read the post-install instructions carefully! Run `brew doctor` until it stops yelling at you.
+
 Then brew install some stuff needed by rvm and capybara/nokogiri:
 
 ```
@@ -55,7 +56,9 @@ Add Heroku git remotes:
 ```
 git remote add production git@heroku.com:josephine-members.git
 git remote add staging git@heroku.com:josephine-staging.git
+git remote add reports git@heroku.com:josephine-reports.git
 git remote add dev git@heroku.com:josephine-dev.git
+
 ```
 
 Pull down the development configuration. This will add all required environment
