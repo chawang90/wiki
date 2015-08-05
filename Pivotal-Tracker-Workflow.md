@@ -21,28 +21,13 @@ Lather, rinse, repeat. This document will explain each step.
 
 Writing a good user story is super important! A good story does far more than just state what's being worked on. A good story helps explain the company's goal, the user's intent, and the exact criteria required for making sure that story is ready to ship.
 
-Here's an example of a poorly written photos.
+Take this story for example.
 
-> **Email unsubscribe**
-> Click link in email to unsubscribe
+![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/ohs5k393.png)
 
-Where do I go to QA this? Who's doing what? Am I logged in? Logged out? How do I know when the feature's ready to ship?
+How do I QA this? Who does what? Am I logged in? Logged out? How do I know when the feature's ready to ship?
 
 This story could probably be rewritten as:
-
-> **User can unsubscribe from newsletters**
-> Given I am a user,
-> And I have received any email from Josephine,
-> When I click "Unsubscribe,"
-> Then I should be sent to a page on Josephine that tells me I am unsubscribed.
-> 
-> When I check my user settings,
-> Then I should no longer be subscribed to the email newsletter.
->
-> Given I have already unsubscribed from email newsletters,
-> And I have received any email from Josephine,
-> When I click "Unsubscribe,"
-> Then I should still be unsubscribed.
 
 Further Reading:
 
