@@ -3,13 +3,21 @@ Pivotal Tracker Workflow
 
 Our workflow is very similar to the one they use at Pivotal Labs. It lets you break features up into discrete user stories with clear acceptance criteria. 
 
-You can start by watching [the following videos](https://www.pivotaltracker.com/help/gettingstarted) on the official Pivotal Tracker site:
-- Getting Started
-- Writing Stories
-- Prioritizing and Estimating Complexity
-- Delivering Stories
+You can start by watching [the introductory videos](https://www.pivotaltracker.com/help/gettingstarted) on the official Pivotal Tracker site. They're actually pretty good.
 
-## Writing Good Stories
+The workflow is pretty simple:
+
+1. Write the story
+1. Prioritize the story
+1. Estimate the story
+1. Start the story
+1. Finish the story
+1. Deliver the story
+1. Accept or Reject the story
+
+This document will all of that :).
+
+## Writing (Good) Stories
 
 Writing a good user story.
 
