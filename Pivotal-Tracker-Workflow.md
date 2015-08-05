@@ -15,11 +15,34 @@ The workflow is pretty simple:
 1. Deliver the story
 1. Accept or Reject the story
 
-This document will all of that :).
+Lather, rinse, repeat. This document will explain each step.
 
 ## Writing (Good) Stories
 
-Writing a good user story.
+Writing a good user story is super important! A good story does far more than just state what's being worked on. A good story helps explain the company's goal, the user's intent, and the exact criteria required for making sure that story is ready to ship.
+
+Here's an example of a poorly written photos.
+
+> **Email unsubscribe**
+> Click link in email to unsubscribe
+
+Where do I go to QA this? Who's doing what? Am I logged in? Logged out? How do I know when the feature's ready to ship?
+
+This story could probably be rewritten as:
+
+> **User can unsubscribe from newsletters**
+> Given I am a user,
+> And I have received any email from Josephine,
+> When I click "Unsubscribe,"
+> Then I should be sent to a page on Josephine that tells me I am unsubscribed.
+> 
+> When I check my user settings,
+> Then I should no longer be subscribed to the email newsletter.
+>
+> Given I have already unsubscribed from email newsletters,
+> And I have received any email from Josephine,
+> When I click "Unsubscribe,"
+> Then I should still be unsubscribed.
 
 Further Reading:
 
@@ -47,7 +70,7 @@ In most cases, it makes sense for the commit title to be the same title as the s
 Here's an example.
 ```
 Some example.
-``
+```
 
 In general, we prefer having one commit per feature as opposed to a series of many. If a story requires too much code, there's a good chance it could be broken up into smaller stories with more discrete 
 
