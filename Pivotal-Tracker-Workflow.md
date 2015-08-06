@@ -15,7 +15,7 @@ The workflow is pretty simple:
 1. Deliver the story
 1. Accept or Reject the story
 
-Lather, rinse, repeat. This document will explain each step.
+Lather, rinse, repeat. This document will explain each step, and then end with some pro tips on how to communicate more effectively with Pivotal.
 
 ## Writing (Good) Stories
 
@@ -71,8 +71,22 @@ First, review the initial story and make sure the acceptance criteria are clear:
 
 Stories that are Delivered will have the **Accept** and **Reject** buttons next to them.
 
-## Accepting or Rejecting Stories
+## Accepting Stories
 
 The code is on staging. What now?
 
 Open up the story and . If something isn't clear about the acceptance criteria, talk to the developer who wrote the code and update the story
+
+## Rejecting Stories
+
+If anything wrong with the feature –– a big gaping bug, a copy or design tweak, an edge case or even just something that feels wrong, reject the story!
+
+When rejecting a story, leave as much information as possible: here's what I did, here's what I expected, and here's what happened. The more specific you are, the better!
+
+Meh:
+> it created two stories
+
+Better:
+> I just published a meal and it looks like it created two "Published Meal" events instead of one. Here's a screenshot of the first [screenshot] and here's a screenshot of the second [screenshot].
+
+## Better Communication
