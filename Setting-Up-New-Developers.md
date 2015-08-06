@@ -103,9 +103,16 @@ rake db:test:prepare
 rspec spec/features
 ```
 
-## Deployment
+## Shell Helpers
 
-Here's a handy shell function for deploying to production or staging.
+We've written some handy shell functions that are checked into the repository in `.shell-helpers`.
+
+Add this line to your `.bash_profile` (or equivalent) to get access to them:
+
+```
+source [PATH_TO_JOSEPHINE_DIRECTORY]/.shell-commands
+```
+
 
 Drop it in your `~/.bashrc` or `~/.zshrc`:
 
