@@ -1,11 +1,11 @@
 Pivotal Tracker Workflow
 ==================
 
-Our workflow is very similar to the one they use at Pivotal Labs. It lets you break features up into discrete user stories with clear acceptance criteria. 
+Our workflow is very similar to the one they use at Pivotal Labs. We break groups of features ("epics") up into discrete user stories with clear acceptance criteria. 
 
-You can start by watching [the introductory videos](https://www.pivotaltracker.com/help/gettingstarted) on the official Pivotal Tracker site. They're actually pretty good.
+[The introductory videos](https://www.pivotaltracker.com/help/gettingstarted) on the official Pivotal Tracker site are actually pretty good. Have a look!
 
-The workflow is pretty simple:
+So what's the workflow?
 
 1. Write the story
 1. Prioritize the story
@@ -21,7 +21,14 @@ Lather, rinse, repeat. This document will explain each step, and then end with s
 
 Writing a good user story is super important! A good story does far more than just state what's being worked on. A good story helps explain the company's goal, the user's intent, and the exact criteria required for making sure that story is ready to ship.
 
-Take this story for example.
+### An example
+
+Let's take a look at this story:
+
+```
+Title: Addon Items
+Description: 
+```
 
 ![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/ohs5k393.png)
 
@@ -29,16 +36,18 @@ How do I QA this? Who does what? Am I logged in? Logged out? How do I know when 
 
 This story could probably be rewritten as:
 
-Further Reading:
-
-- [Be Good To Your Devs: Write User Stories That Are Easy To Understand](http://pivotallabs.com/write-user-stories-that-are-easy-to-understand/)
-- [How to write Well-Formed User Stories](http://pivotallabs.com/well-formed-stories/)
-
-- Use Gherkin. Define clear setup and acceptance criteria.
+### Types of Stories
 - Features
 - Bugs
 - Chores
 - Release Flags
+
+
+### Further Reading:
+
+- [Be Good To Your Devs: Write User Stories That Are Easy To Understand](http://pivotallabs.com/write-user-stories-that-are-easy-to-understand/)
+- [How to write Well-Formed User Stories](http://pivotallabs.com/well-formed-stories/)
+
 
 ## Starting Stories
 
