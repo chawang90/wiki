@@ -21,10 +21,12 @@ We have an AWS instance whose sole purpose in life is to refresh the `josephine-
 To connect:
 
 ```bash
-ssh -i ~/Google\ Drive/Josephine/Development/Keys/JosephineReportsAWS.pem ec2-user@ec2-54-148-22-107.us-west-2.compute.amazonaws.com
+# This runs the following command. 
+# ssh -i ~/Google\ Drive/Josephine/Development/Keys/JosephineReportsAWS.pem ec2-user@ec2-54-148-22-107.us-west-2.compute.amazonaws.com
+joreports
 ```
 
-Sha-bam! You should be connected.
+Sha-bam! You should be connected. (Note: you'll need to have Google Drive [mounted to your computer](https://www.google.com/drive/download/) to get access to the AWS key)
 
 There are two files in the `reports` directory:
 
