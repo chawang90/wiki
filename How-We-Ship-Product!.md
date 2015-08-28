@@ -8,7 +8,7 @@ Our workflow is very similar to the one they used at Pivotal Labs. We break grou
 
 So what's the workflow?
 
-#### Prioritizing Epics
+#### What's An Epic?
 
 An "epic" is a big chunks of features. We talk about epics at the Friday product prioritization meeting, and they generally represent work for the next 2-3 months of work (though sometimes longer term).
 
@@ -19,7 +19,7 @@ An example of an epic would be "A La Carte Ordering" or "Meal Labels." We drag t
 For the most part epics are actually composed of many different things we need built. These things are "stories."
 
 
-#### Stories
+#### What's A Story?
 
 A "story" is:
 
