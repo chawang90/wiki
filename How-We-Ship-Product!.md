@@ -1,6 +1,6 @@
-# How We Ship Products!
+# How We Ship Product!
 
-Hi! This is how we do product!
+Tell me how!
 
 Our workflow is very similar to the one they used at Pivotal Labs. We break groups of features ("epics") up into discrete user stories with clear acceptance criteria. This document will explain the jargon, methodology, and rationale behind why we do this.
 
