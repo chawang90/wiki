@@ -1,11 +1,46 @@
-Pivotal Tracker Workflow
-==================
+# How We Ship Products!
 
-Our workflow is very similar to the one they use at Pivotal Labs. We break groups of features ("epics") up into discrete user stories with clear acceptance criteria. 
+Hi! This is how we do product!
 
-[The introductory videos](https://www.pivotaltracker.com/help/gettingstarted) on the official Pivotal Tracker site are actually pretty good. Have a look!
+Our workflow is very similar to the one they used at Pivotal Labs. We break groups of features ("epics") up into discrete user stories with clear acceptance criteria. This document will explain the jargon, methodology, and rationale behind why we do this.
+
+[The introductory videos](https://www.pivotaltracker.com/help/gettingstarted) on the official Pivotal Tracker site are actually pretty good. Have a look! It's a good primary source.
 
 So what's the workflow?
+
+#### Prioritizing Epics
+
+An "epic" is a big chunks of features. We talk about epics at the Friday product prioritization meeting, and they generally represent work for the next 2-3 months of work (though sometimes longer term).
+
+We use Trello to keep track of epics. Each card represents one epic, and may have additional notes, preliminary speccing and estimation, but for the most part these are super rough.
+
+An example of an epic would be "A La Carte Ordering" or "Meal Labels." We drag these around and use them to decide what to work on next, based on business priorities and estimation / scoping. 
+
+For the most part epics are actually composed of many different things we need built. These things are "stories."
+
+
+#### Stories
+
+A "story" is:
+
+> Anything a user can do or see on the website that they previously couldn't. When we write the story, we describe what a user's intention is, the steps they should take, and the results that they expect.
+
+*(If we're getting nitpicky, we could also have stories that remove funtionality. But who's counting.)*
+
+If we take the "Dietary Labels" epic for example, and break it up into stories, we might get:
+
+- "Customer can see dietary information on the meal page"
+- "Customer can see dietary information on the search results page"
+- "Customer can set dietary preferences" 
+- "Cook can set dietary information for their meal"
+
+Each of these has their own "acceptance criteria," meaning –– how do I QA this feature and ensure that it's done? But We'll get to that.
+
+#### The Pivotal Acceptance Process
+
+"Acceptance" is what we want. When a story is "accepted," it means that it meets all the different requirements for us to ship it to the live site.
+
+"Acceptance" is the final stage of a story's lifecycle. How do we get there?
 
 1. Write the story
 1. Prioritize the story
@@ -13,7 +48,7 @@ So what's the workflow?
 1. Start the story
 1. Finish the story
 1. Deliver the story
-1. Accept or Reject the story
+1. Accept the story (or Reject it)
 
 Lather, rinse, repeat. This document will explain each step, and then end with some pro tips on how to communicate more effectively with Pivotal.
 
