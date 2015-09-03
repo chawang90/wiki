@@ -6,7 +6,7 @@ heroku run console -r production
 
 Find the user and remove their stripe info:
 
-`ruby
+```ruby
 user = User.find_by_email('mrs-no-more-credit-card@example.com')
 user.update!(stripe_id: nil, stripe_last_4: nil)
 ```
