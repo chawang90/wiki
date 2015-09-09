@@ -36,7 +36,7 @@ If we take the "Dietary Labels" epic for example, and break it up into stories, 
 
 Each of these has their own "acceptance criteria," meaning –– how do I QA this feature and ensure that it's done? But We'll get to that.
 
-#### The Pivotal Acceptance Process
+#### The Feature Acceptance
 
 "Acceptance" is what we want. When a story is "accepted," it means that it meets all the different requirements for us to ship it to the live site.
 
