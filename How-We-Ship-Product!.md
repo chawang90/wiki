@@ -2,7 +2,7 @@
 
 Tell me how!
 
-Our workflow is very similar to the one they used at Pivotal Labs. We break groups of features ("epics") up into discrete user stories with clear acceptance criteria. This document will explain the jargon, methodology, and rationale behind why we do this.
+We break groups of features ("epics") up into discrete user stories with clear acceptance criteria. This document will explain the jargon, methodology, and rationale behind why we do this.
 
 [The introductory videos](https://www.pivotaltracker.com/help/gettingstarted) on the official Pivotal Tracker site are actually pretty good. Have a look! It's a good primary source.
 
