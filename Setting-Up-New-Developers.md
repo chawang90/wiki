@@ -94,6 +94,23 @@ heroku plugins:install git://github.com/ddollar/heroku-config.git
 heroku config:pull -r dev
 ```
 
+## Shell Helpers for Deployment and Copying Databases
+
+We've written some handy shell functions that are checked into the repository in `.shell-helpers`.
+
+Add this line to your `.bash_profile` (or equivalent) to get access to them:
+
+```
+source [PATH_TO_JOSEPHINE_DIRECTORY]/.shell-commands
+```
+
+Reload your shell, then:
+
+```
+jodeploy staging
+jodeploy production
+```
+
 ## AWS / Assets / Database
 
 Set up AWS for S3 assets. (Get access keys from Tal)
@@ -104,10 +121,10 @@ aws configure
 
 Enter access key and secret access key. Leave the `region name` and `output format` blank.
 
-Copy production database:
+Copy production database to your development environment:
 
 ```
-sh lib/scripts/copy_production_to_development.sh
+jodb development
 ```
 
 ## Running the App
@@ -126,40 +143,4 @@ Open [localhost:3000](http://localhost:3000). Voila!
 rake db:create db:migrate
 rake db:test:prepare
 rspec spec/features
-```
-
-## Shell Helpers
-
-We've written some handy shell functions that are checked into the repository in `.shell-helpers`.
-
-Add this line to your `.bash_profile` (or equivalent) to get access to them:
-
-```
-source [PATH_TO_JOSEPHINE_DIRECTORY]/.shell-commands
-```
-
-
-Drop it in your `~/.bashrc` or `~/.zshrc`:
-
-```sh
-function jodeploy {
-  if [ "$1" = "" ]; then
-    echo "Usage: jodeploy <remote-name>"
-    echo
-    echo "  jodeploy staging"
-    echo "  jodeploy production"
-  else
-    set -x
-    git push origin HEAD
-    git push $1 HEAD:master
-    heroku run rake db:migrate -r $1
-  fi
-}
-```
-
-Reload your shell, then:
-
-```
-jodeploy staging
-jodeploy production
 ```
