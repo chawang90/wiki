@@ -7,10 +7,13 @@ Ello! Set you up with a bunch of Josephine-ish accounts and services. Plz plz ma
 
 You can now do stuff on http://josephine.com/admin (user: tal, password: saf). We can do a little walkthrough of this today at some point.
 
+**Slack**
+
+You can add the new person [here](https://josephine-meals.slack.com/admin/invites).
 
 **Email Addresses**
 
-You got 'em already. Add your avatars! Would love to take a new run of headshots of everyone in the office some time this week.
+Make sure you upload an avatar! We can find some time to take headshots if you don't have any.
 
 
 **Dropbox**
@@ -28,11 +31,8 @@ It's a lil task management app, for now we use it to manage the cook funnel and 
 All of our login credentials for other services are in the Accounts doc (under Admin).
 
 
-**Pivotal Tracker**
+**Github**
 
-We use this for feature acceptance and bug tracking. I'll give you a walkthrough at some point but would **love** for you to be involved in story acceptance (a fancy word for QA testing).
-
-As we add more people to Pivotal I'll be making sure it's always clean and up-to-date.
 
 
 **Facebook Page**
