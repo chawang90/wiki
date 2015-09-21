@@ -25,27 +25,25 @@ This is our company wide chat. You should have received an invite.
 
 **Josephine Admin**
 
-This is our admin screen, where we can do all sorts of admin-y type things. Feel free to poke around!
+This is our in-app admin screen, where we can do all sorts of admin-y type things. It's always a work in progress but feel free to poke around!
 
 http://josephine.com/admin (user: tal, password: saf)
 
 
 **Google Drive**
 
-We use Google Drive for all of our files. You should have access to a "Josephine" folder here: https://drive.google.com/drive/u/0/folders/0B-xEryEZORfWMEMxZzBnODhfbXc
+We use Google Drive for all of our files. You should have access to a "Josephine" folder here: https://drive.google.com/a/josephine.com/folderview?id=0B-xEryEZORfWMEMxZzBnODhfbXc&usp=sharing
 
 
 **Trello**
 
-It's a lil task management app, for now we use it for two things: the Cook Funnel and Product Roadmapping. You should've gotten invites for both boards.
+Trello is a lil task management app, for now we use it for two things: the Cook Funnel and Product Roadmapping. You should've gotten invites for both boards.
 
 **Github**
 
 We use this for project management, wikis, and code.
 
 Can you create an account and write me back with your username?
-
-
 
 **Account Access**
 
@@ -63,4 +61,4 @@ For all sorts of analytic'ing.
 
 **Oakstop**
 
-I emailed the Oakstop folks to get you set up with all the necessary stuff: booking rooms on Liquid Spaces, the Oakstop Listserv, and filling out your Welcome Form :)
+I emailed the Oakstop folks to get you set up with all the necessary stuff: booking rooms on Liquid Spaces, the Oakstop Listserv, and filling out your Oakstop profile :)
