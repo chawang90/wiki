@@ -1,7 +1,7 @@
 Setup For New Employees
 -----------------------
 
-Set you up with a bunch of Josephine-ish accounts and services. Plz plz make sure they work.
+Set you up with a bunch of Josephine-ish accounts and services. I'd recommend logging through this list, poking around, and making sure all of your accounts work. If not, let me know!
 
 **Email Address**
 
