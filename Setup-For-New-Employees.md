@@ -1,51 +1,61 @@
-Send this email afterwards:
+Setup For New Employees
+-----------------------
 
-Ello! Set you up with a bunch of Josephine-ish accounts and services. Plz plz make sure they work.
+Set you up with a bunch of Josephine-ish accounts and services. Plz plz make sure they work.
 
+**Email Address**
 
-**Josephine Admin**
+You should now have a @josephine.com email address. Make sure you upload an avatar and, if you want, a signature! We can find some time to take headshots at some point.
 
-You can now do stuff on http://josephine.com/admin (user: tal, password: saf). We can do a little walkthrough of this today at some point.
+> You can set up a new account here: 
+
+**Email Groups**
+
+- team@josephine.com – This goes to everybody on the team, including contractors.
+- hello@josephine.com – Our contact email on the website.
+- cooks@josephine.com – Mailing list for cooks to talk amongst themselves ('til we have a forum)
+- cooksupport@josephine.com – For cooks to talk with our cook operations team.
+- accounts@josephine.com – We use this email for all accounts we sign up for (see the Accounts doc)
 
 **Slack**
 
-You can add the new person [here](https://josephine-meals.slack.com/admin/invites).
+This is our company wide chat. You should have received an invite.
 
-**Email Addresses**
+> You can add the new person here: https://josephine-meals.slack.com/admin/invites
 
-Make sure you upload an avatar! We can find some time to take headshots if you don't have any.
+**Josephine Admin**
 
+This is our admin screen, where we can do all sorts of admin-y type things. Feel free to poke around!
 
-**Dropbox**
-
-It's a shared folder for now, meaning it'll take up your personal space. I actually have an unlimited teams account but need to transfer all my personal stuff out of it.
-
-
-**Trello**
-
-It's a lil task management app, for now we use it to manage the cook funnel and assign people and stuff.
+http://josephine.com/admin (user: tal, password: saf)
 
 
 **Google Drive**
 
-All of our login credentials for other services are in the Accounts doc (under Admin).
+We use Google Drive for all of our files. You should have access to a "Josephine" folder here: https://drive.google.com/drive/u/0/folders/0B-xEryEZORfWMEMxZzBnODhfbXc
 
+
+**Trello**
+
+It's a lil task management app, for now we use it for two things: the Cook Funnel and Product Roadmapping. You should've gotten invites for both boards.
 
 **Github**
 
+We use this for project management, wikis, and code.
 
+Can you create an account and write me back with your username?
+
+
+
+**Account Access**
+
+Check out the Accounts doc in Google Drive. It has the login information for all of the services we use. https://docs.google.com/spreadsheets/d/1Yv_Fq9ok61bNIIQZ-lXhEC-TRXzVKNxxz1m1bQXjXxw/edit#gid=0
 
 **Facebook Page**
 
 For all sorts of Facebookin'.
 
-**Email Groups**
-
-- team@josephine.com – We should all use this when communicating together. 
-- hello@josephine.com – Our contact email on the website.
-- cooks@josephine.com – Mailing list for cooks to talk amongst themselves ('til we have a forum)
-- cooksupport@josephine.com – For cooks to talk with us ('til the singularity)
-- accounts@josephine.com – We use this email for all accounts we sign up for (see the Accounts doc)
+I couldn't find you, are you on Facebook?
 
 **Google Analytics**
 
@@ -53,6 +63,4 @@ For all sorts of analytic'ing.
 
 **Oakstop**
 
-- Rooms (Liquid Spaces)
-- Welcomt Form
-- Listserv
+I emailed the Oakstop folks to get you set up with all the necessary stuff: booking rooms on Liquid Spaces, the Oakstop Listserv, and filling out your Welcome Form :)
