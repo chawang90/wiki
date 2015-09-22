@@ -1,5 +1,6 @@
-Setup For New Employees
------------------------
+## Welcome!
+
+Hi. We're glad to have you.
 
 ## Getting Into The Office!
 
