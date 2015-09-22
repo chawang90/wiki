@@ -37,7 +37,13 @@ Then add the rvm bootstrapper to your `~/.profile`, `.zshrc`, or whatever:
 source ~/.rvm/scripts/rvm
 ```
 
-When you `cd` into the josephine app directory, you'll know `rvm` is working because you'll see a warning that says something like
+Now you can `cd` into the josephine directory:
+
+```
+cd josephine
+```
+
+You'll know `rvm` is working because you'll see a warning that says something like
 
 ```
 ruby-2.2.3 is not installed.
@@ -46,10 +52,9 @@ To install do: 'rvm install ruby-2.2.3'
 
 Go ahead and run the `rvm install` command.
 
-Install bundler:
+Install bundler, and run the `bundle` command to install all of our gems:
 
 ```
-cd josephine
 gem install bundler
 bundle
 ```
