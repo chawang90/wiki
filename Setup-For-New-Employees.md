@@ -1,15 +1,19 @@
 Setup For New Employees
 -----------------------
 
+## Getting Into The Office!
+
+Hit "Start", then #7300.
+
 Set you up with a bunch of Josephine-ish accounts and services. I'd recommend logging through this list, poking around, and making sure all of your accounts work. If not, let me know!
 
-**Email Address**
+## Email
 
 You should now have a @josephine.com email address. Make sure you upload an avatar and, if you want, a signature! We can find some time to take headshots at some point.
 
 > You can set up a new account here: 
 
-**Email Groups**
+### Email Groups
 
 - team@josephine.com – This goes to everybody on the team, including contractors.
 - hello@josephine.com – Our contact email on the website.
@@ -17,23 +21,28 @@ You should now have a @josephine.com email address. Make sure you upload an avat
 - cooksupport@josephine.com – For cooks to talk with our cook operations team.
 - accounts@josephine.com – We use this email for all accounts we sign up for (see the Accounts doc)
 
-**Slack**
+## Slack
 
 This is our company wide chat. You should have received an invite.
 
 > You can add the new person here: https://josephine-meals.slack.com/admin/invites
 
-**Josephine Admin**
+## The Admin Screen
 
 This is our in-app admin screen, where we can do all sorts of admin-y type things. It's always a work in progress but feel free to poke around!
 
 http://josephine.com/admin (user: tal, password: saf)
 
 
-**Google Drive**
+## Google Drive
 
 We use Google Drive for all of our files. You should have access to a "Josephine" folder here: https://drive.google.com/a/josephine.com/folderview?id=0B-xEryEZORfWMEMxZzBnODhfbXc&usp=sharing
 
+Also, make sure to install the Google Drive app for Mac. 
+
+https://www.google.com/drive/download/
+
+This lets you sync your Google Drive files locally on your computer (just like Dropbox!)
 
 **Trello**
 
