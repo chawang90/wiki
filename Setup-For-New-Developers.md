@@ -64,6 +64,12 @@ source ~/.rvm/scripts/rvm
 
 When you `cd` into the josephine app directory, you'll know `rvm` is working because you'll see a warning that says something like
 
+```
+ruby-2.2.3 is not installed.
+To install do: 'rvm install ruby-2.2.3'
+```
+
+
 Install bundler:
 
 ```
