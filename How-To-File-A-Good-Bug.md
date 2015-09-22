@@ -1,3 +1,5 @@
+> **this document is still in progress. just notes for now :) **
+
 # :bug: :beetle: 
 
 is it even a bug?
