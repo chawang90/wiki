@@ -68,7 +68,7 @@ When you `cd` into the josephine app directory, you'll know `rvm` is working bec
 ruby-2.2.3 is not installed.
 To install do: 'rvm install ruby-2.2.3'
 ```
-
+Go ahead and run the `rvm install` command.
 
 Install bundler:
 
