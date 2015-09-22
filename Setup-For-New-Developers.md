@@ -10,31 +10,6 @@ Install xcode. When it's done you might need to also install the command line to
 xcode-select --install
 ```
 
-## libiconv
-
-Capybara depends on on Nokogiri, which has this bad boy as a dependency. You might see your `bundle install` fail on installing Nokogiri, with this message:
-
-```
-libiconv is missing.  Please locate mkmf.log to investigate how it is failing.
------
-*** extconf.rb failed ***
-
-[..]
-
-extconf failed, exit code 1
-
-Gem files will remain installed in /Users/cristian/.rvm/gems/ruby-2.1.5@global/gems/nokogiri-1.6.6.2 for inspection.
-Results logged to /Users/cristian/.rvm/gems/ruby-2.1.5@global/extensions/x86_64-darwin-14/2.1.0-static/nokogiri-1.6.6.2/gem_make.out
-An error occurred while installing nokogiri (1.6.6.2), and Bundler cannot continue.
-Make sure that `gem install nokogiri -v '1.6.6.2'` succeeds before bundling.
-```
-
-If that's the case, try running this command:
-
-```
-brew install libiconv
-```
-
 ## Homebrew
 
 Install homebrew. There's a one-liner at [http://brew.sh/](http://brew.sh/). Read the post-install instructions carefully! Run `brew doctor` until it stops yelling at you.
@@ -68,6 +43,7 @@ When you `cd` into the josephine app directory, you'll know `rvm` is working bec
 ruby-2.2.3 is not installed.
 To install do: 'rvm install ruby-2.2.3'
 ```
+
 Go ahead and run the `rvm install` command.
 
 Install bundler:
@@ -76,6 +52,31 @@ Install bundler:
 cd josephine
 gem install bundler
 bundle
+```
+
+### libiconv
+
+Capybara depends on on Nokogiri, which has this bad boy as a dependency. You might see your `bundle install` fail on installing Nokogiri, with this message:
+
+```
+libiconv is missing.  Please locate mkmf.log to investigate how it is failing.
+-----
+*** extconf.rb failed ***
+
+[..]
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/cristian/.rvm/gems/ruby-2.1.5@global/gems/nokogiri-1.6.6.2 for inspection.
+Results logged to /Users/cristian/.rvm/gems/ruby-2.1.5@global/extensions/x86_64-darwin-14/2.1.0-static/nokogiri-1.6.6.2/gem_make.out
+An error occurred while installing nokogiri (1.6.6.2), and Bundler cannot continue.
+Make sure that `gem install nokogiri -v '1.6.6.2'` succeeds before bundling.
+```
+
+If that's the case, try running this command:
+
+```
+brew install libiconv
 ```
 
 ## Heroku
