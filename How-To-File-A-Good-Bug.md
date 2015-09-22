@@ -1,4 +1,5 @@
-> **this document is still in progress. just notes for now :) **
+> # a work in progress
+> *this document is still in progress. just notes for now :) *
 
 # :bug: :beetle: 
 
