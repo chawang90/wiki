@@ -154,7 +154,7 @@ Open [localhost:3000](http://localhost:3000). Voila!
 ```
 rake db:create db:migrate
 rake db:test:prepare
-rspec spec/features
+rspec spec/
 ```
 
 Hopefully it's all :green_heart: :green_apple: :recycle: :green_book: :smile:
