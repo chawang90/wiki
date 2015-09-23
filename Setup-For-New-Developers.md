@@ -152,7 +152,6 @@ Open [localhost:3000](http://localhost:3000). Voila!
 ## Running Tests
 
 ```
-rake db:create db:migrate
 rake db:test:prepare
 rspec spec/
 ```
