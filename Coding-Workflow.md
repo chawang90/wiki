@@ -7,7 +7,9 @@ When you install the chrome extension and your Github Issues will look like this
 
 ![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/r3keprw-.png)
 
-New issues get filed into **New Issues**. They can get filed by anyone on the team, but once they're filed someone on the product team to make sure that the story has all the information necessary (speccontext, goal, 
+New issues get filed into **New Issues**. They can get filed by anyone on the team, but once they're filed someone on the product team to make sure that the story has all the information necessary (spec, context, goal, etc).
+
+
 
 Github Flow + Review Apps
 -------
