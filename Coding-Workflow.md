@@ -1,28 +1,26 @@
 tl;dr
 ------------
-1. Create an issue in Zenhub. It'll give you an issue number, like 145.
-1. Drag your issue into "In Progress" when you start working.
-2. Create a local branch. Do your work.
-3. Push up to remote branch when you're ready to share.
-4. Open a pull request using `hub pull-request -i <issuenumber>` 
-5. Get feedback and keep working.
-6. Drag into "Ready For Review" when you're done!
-7. When another person approves your change, you can merge using `Merge Pull request`. A rebase may be necessary. 
-8. Pull down local changes by refreshing master. Deploy your code from master and run `jodeploy production`. This pushes to github, pushes to heroku, runs rake dbmigrate, and sends a slack notification.
-9. You're done! Pat yourself on the back. Or pat someone else :)
+1. **Create an issue** in Zenhub. It'll give you an issue number, like 145.
+1. **Drag your issue** into "In Progress" when you start working.
+2. **Create a local branch**. Do your work.
+3. Push up to a **remote branch** when you're ready to share.
+4. **Open a pull request** using `hub pull-request -i <issuenumber>` 
+5. **Get feedback** and keep working.
+6. Drag into **Ready For Review** when you're done!
+7. When another person approves your change, **merge your branch** by clicking "Merge Pull Request" (a rebase may be necessary)
+8. **Deploy Your Code**: First check out master and pull it down. Then run `jodeploy production`. This pushes to Github, pushes to Heroku, runs `rake db:migrate`, and sends a Slack notification.
+9. **You're done!** Pat yourself on the back. Or pat someone else :)
 
-Story Tracking
+Creating an Issue in Zenhub
 --------------
 
-We use [Zenhub](https://www.zenhub.io/), which is an relatively new product management tool that integrates directly with Github Issues.
-
-When you install the chrome extension and your Github Issues will look like this:
-
-![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/r3keprw-.png)
+> We use [Zenhub](https://www.zenhub.io/), which is an relatively new product management tool that integrates directly with Github Issues. When you install the chrome extension and your Github Issues will look like this:
 
 New issues get filed into **New Issues**. They can get filed by anyone on the team, but once they're filed someone on the product team to make sure that the story has all the information necessary (spec, context, goal, etc).
 
+![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/r3keprw-.png)
 
+Draggint 
 
 Github Flow + Review Apps
 -------
