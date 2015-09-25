@@ -1,9 +1,17 @@
-> # a work in progress
-> *this document is still in progress. just notes for now :) *
+> #WIP
 
-# :bug: :beetle: 
+###Setup:
+1. Make sure you have a Github account. If you don't, sign up for Github, and ping the product team with your username, so we can add you.
+1. Add Zenhub (currently only works in Chrome) https://www.zenhub.io/. 
+It should show up in the extensions section of your Chrome browser as a Z with a blue background. Click on the Z and sign in with your Github account details.
+![test](https://www.dropbox.com/s/5zlc6o45834e2wd/Screenshot%202015-09-25%2015.40.57.png?dl=0)
+1. Once you have Zenhub, sign in to Github and then go to https://github.com/josephine/josephine#boards?repos=18314977 
 
-is it even a bug?
+
+###How to file a good bug :bug: :beetle:
+
+Once you've discovered whether it's a bug, 
+is it a bug?
 
 ask the user questions
 - are you logged in?
