@@ -28,7 +28,7 @@ Clone the repo:
 git clone git@github.com:josephine/josephine.git
 ```
 
-## Ruby
+## Ruby and RVM
 
 Install rvm. There's a two-liner at [https://rvm.io/](https://rvm.io/).
 Then add the rvm bootstrapper to your `~/.profile`, `.zshrc`, or whatever:
@@ -51,6 +51,8 @@ To install do: 'rvm install ruby-2.2.3'
 ```
 
 Go ahead and run the `rvm install` command.
+
+# Installing Gems
 
 Install bundler, and run the `bundle` command to install all of our gems:
 
@@ -78,9 +80,10 @@ An error occurred while installing nokogiri (1.6.6.2), and Bundler cannot contin
 Make sure that `gem install nokogiri -v '1.6.6.2'` succeeds before bundling.
 ```
 
-If that's the case, try running this command:
+If that's the case, try running one (or both) of the following commands:
 
 ```
+brew install qt
 brew install libiconv
 ```
 
