@@ -61,9 +61,9 @@ gem install bundler
 bundle
 ```
 
-### libiconv
+### Issues installing capybara-webkit
 
-Capybara depends on on Nokogiri, which has this bad boy as a dependency. You might see your `bundle install` fail on installing Nokogiri, with this message:
+Capybara depends on on Nokogiri, which has all sorts of dependencies. You might see your `bundle install` fail on installing Nokogiri, with this message:
 
 ```
 libiconv is missing.  Please locate mkmf.log to investigate how it is failing.
@@ -80,11 +80,16 @@ An error occurred while installing nokogiri (1.6.6.2), and Bundler cannot contin
 Make sure that `gem install nokogiri -v '1.6.6.2'` succeeds before bundling.
 ```
 
-If that's the case, try running one (or both) of the following commands:
+If that's the case, try running this command:
+
+```
+brew install libiconv
+```
+
+You also might see it fail on installing `capybara-webkit`. In that case, run this command:
 
 ```
 brew install qt
-brew install libiconv
 ```
 
 ## Heroku
