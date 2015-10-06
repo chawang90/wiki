@@ -107,10 +107,10 @@ git remote add dev git@heroku.com:josephine-dev.git
 ```
 
 Pull down the development configuration. This will add all required environment
-variables to `.env`. See https://github.com/heroku/heroku-accounts#usage for more info.
+variables to `.env`. See https://github.com/ddollar/heroku-config for more info.
 
 ```sh
-heroku plugins:install https://github.com/heroku/heroku-accounts.git
+heroku plugins:install https://github.com/ddollar/heroku-config.git
 heroku config:pull -r dev
 ```
 
