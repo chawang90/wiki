@@ -38,7 +38,7 @@ Crop it to a square (Tal recommends Photoshop).
 
 Save the file as `avatar-small.jpg`
 
-Connect to our `josephine-production` S3 Bucket (Tal recommends Cyberduck). Get the credentials with:
+Connect to our `josephine-production` S3 Bucket (Tal recommends Cyberduck. Zeke recommends [3Hub](http://www.3hubapp.com/) because it's free). Get the credentials with:
 
 ```
 heroku config -r production | grep -i aws_
