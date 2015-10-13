@@ -12,7 +12,7 @@ props = {
   first_name: 'Martha', 
   last_name: 'Stewart', 
   phone_number: '5558675309', 
-  handle: 'martha-stewart'
+  handle: 'martha' # Use just the first name
 }
 
 user = User.find_or_initialize_by(email: props[:email])
@@ -36,7 +36,9 @@ Download the cook's avatar from Trello.
 
 Crop it to a square (Tal recommends Photoshop).
 
-Save the file as `avatar-small.jpg`
+Save two copies:
+1. `avatar-small.jpg` –– 150x150px
+2. `avatar.jpg` -- 500x500px (or largest possible)
 
 Connect to our `josephine-production` S3 Bucket (Tal recommends Cyberduck. Zeke recommends [3Hub](http://www.3hubapp.com/) because it's free). Get the credentials with:
 
