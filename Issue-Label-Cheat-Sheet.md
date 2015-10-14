@@ -6,7 +6,7 @@ I can't work on this until someone does something else. Good to include the issu
 
 Bug
 -------
-This thing is broken. 
+This thing is broken. Write code to fix it.
 
 Chore
 -------
