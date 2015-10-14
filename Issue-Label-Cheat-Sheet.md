@@ -24,7 +24,7 @@ Feature
 -------
 This is the meaty stuff! Something new that a user can see. It can be an admin too.
 
-Question
+Musing
 -------
 Kind of a catch-all for ponderings with no specific deliverable.
 
