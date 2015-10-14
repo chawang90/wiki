@@ -10,7 +10,7 @@ This thing is broken. Write code to fix it.
 
 Chore
 -------
-Some work that needs to get done that *users don't see*. An example would be buying an SSL certificate, or migrating data.
+Some work that needs to get done that doesn't introduce new functionality. An example would be buying an SSL certificate, creating a cook account, or migrating/fixing data.
 
 Copy
 -------
