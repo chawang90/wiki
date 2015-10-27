@@ -8,11 +8,16 @@ Create or update the user record.
 
 ```ruby
 props = {
-  email: 'martha@stewart.com',
-  first_name: 'Martha', 
-  last_name: 'Stewart', 
-  phone_number: '5558675309', 
-  handle: 'martha' # Use just the first name
+  email: 'ferfaye@me.com',
+  first_name: 'Jennifer', 
+  last_name: 'Faye', 
+  phone_number: '4154253865', 
+  handle: 'jennifer',
+  neighborhood: 'West Portal',
+  address_line1: '555 Dewey Blvd.',
+  city: 'San Francisco',
+  state: 'CA',
+  zipcode: '94116'
 }
 
 user = User.find_or_initialize_by(email: props[:email])
@@ -27,7 +32,15 @@ end
 
 user.save!
 
-Cook.create!(user: user, handle: props[:handle])
+Cook.create!(
+  user: user, 
+  handle: props[:handle], 
+  neighborhood: props[:neighborhood], 
+  address_line1: props[:address_line1], 
+  city: props[:city], 
+  state: props[:state], 
+  zipcode: props[:zipcode], 
+)
 ```
 
 Download the cook's avatar from Trello.
