@@ -15,6 +15,7 @@ props = {
   handle: 'jennifer',
   neighborhood: 'West Portal',
   address_line1: '555 Dewey Blvd.',
+  address_line2: nil,
   city: 'San Francisco',
   state: 'CA',
   zipcode: '94116'
@@ -37,6 +38,7 @@ Cook.create!(
   handle: props[:handle], 
   neighborhood: props[:neighborhood], 
   address_line1: props[:address_line1], 
+  address_line2: props[:address_line2], 
   city: props[:city], 
   state: props[:state], 
   zipcode: props[:zipcode], 
