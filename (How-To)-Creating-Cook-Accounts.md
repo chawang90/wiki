@@ -49,9 +49,8 @@ Download the cook's avatar from Trello.
 
 ![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/e0eeom-b.png)
 
-Crop it to a square (Tal recommends Photoshop).
+Crop it to a square (Tal recommends Photoshop) and save two copies:
 
-Save two copies:
 1. `avatar-small.jpg` –– 150x150px
 2. `avatar.jpg` -- 500x500px (or largest possible)
 
