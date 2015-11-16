@@ -8,17 +8,16 @@ Create or update the user record.
 
 ```ruby
 props = {
-  email: 'ferfaye@me.com',
-  first_name: 'Jennifer', 
-  last_name: 'Faye', 
-  phone_number: '4154253865', 
-  handle: 'jennifer',
-  neighborhood: 'West Portal',
-  address_line1: '555 Dewey Blvd.',
-  address_line2: nil,
-  city: 'San Francisco',
+  email: '',
+  first_name: '', 
+  last_name: '', 
+  phone_number: '', 
+  handle: '',
+  neighborhood: '',
+  address_line1: '',
+  city: '',
   state: 'CA',
-  zipcode: '94116'
+  zipcode: ''
 }
 
 user = User.find_or_initialize_by(email: props[:email])
