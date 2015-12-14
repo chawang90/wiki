@@ -28,6 +28,19 @@ This is our company wide chat. You should have received an invite.
 
 > You can add the new person here: https://josephine-meals.slack.com/admin/invites
 
+### Slack / Github notifications
+
+Make sure you set up your Slack notifications so you can know whenever you're @mentioned in Github. 
+
+This is really important! Otherwise we won't be able to reliably use Github with each other.
+
+1. Join #nerds-github-issues
+1. Add your Github username (@sike13, @_charleyw, etc) to your highlight words here: https://josephine-meals.slack.com/account/notifications#highlight_words_div
+1. Set the channel to "notify me only when mentioned"
+1. Voila! You should now see the red notification numbers any time your name or Github username is mentioned in a Github issue
+1. *Optional* – go to your notification preferences and mute the channel so it doesn't clog your flow.
+
+
 ## The Admin Screen
 
 This is our in-app admin screen, where we can do all sorts of admin-y type things. It's always a work in progress but feel free to poke around!
