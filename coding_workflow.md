@@ -2,8 +2,8 @@ tl;dr
 ------------
 1. **Create an issue** in Zenhub. It'll give you an issue number, like 145.
 1. **Drag your issue** into "In Progress" when you start working.
-2. **Create a local branch**. Do your work.
-3. Push up to a **remote branch** when you're ready to share.
+2. **Create a local branch** from master with `git checkout -b <branch_name>`. Do your work.
+3. Push your branch up to a **remote branch** with `git push -u origin HEAD` when you're ready to share.
 4. **Open a pull request** using `hub pull-request -i <issuenumber>`
 5. **Get feedback** and keep working.
 6. Drag into **Ready For Review** when you're done!
