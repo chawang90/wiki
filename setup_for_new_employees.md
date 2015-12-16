@@ -14,7 +14,7 @@ You should now have a @josephine.com email address. Make sure you upload an avat
 
 > You can set up a new account here: 
 
-### Email Groups
+## Email Groups
 
 - team@josephine.com – This goes to everybody on the team, including contractors.
 - hello@josephine.com – Our contact email on the website.
@@ -28,7 +28,7 @@ This is our company wide chat. You should have received an invite.
 
 > You can add the new person here: https://josephine-meals.slack.com/admin/invites
 
-### Slack / Github notifications
+## Slack / Github notifications
 
 Make sure you set up your Slack notifications so you can know whenever you're @mentioned in Github. 
 

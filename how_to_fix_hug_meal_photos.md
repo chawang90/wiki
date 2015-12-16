@@ -1,4 +1,4 @@
-# What to do if a meal photo is weird!
+## What to do if a meal photo is weird!
 
 If you see a wonky image like this one, here's what you can do:
 

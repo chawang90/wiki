@@ -8,7 +8,7 @@ We break groups of features ("epics") up into discrete user stories with clear a
 
 So what's the workflow?
 
-#### What's An Epic?
+## What's An Epic?
 
 An "epic" is a big chunks of features. We talk about epics at the Friday product prioritization meeting, and they generally represent work for the next 2-3 months of work (though sometimes longer term).
 
@@ -19,7 +19,7 @@ An example of an epic would be "A La Carte Ordering" or "Meal Labels." We drag t
 For the most part epics are actually composed of many different things we need built. These things are "stories."
 
 
-#### What's A Story?
+## What's A Story?
 
 A "story" is:
 
@@ -36,7 +36,7 @@ If we take the "Dietary Labels" epic for example, and break it up into stories, 
 
 Each of these has their own "acceptance criteria," meaning –– how do I QA this feature and ensure that it's done? But We'll get to that.
 
-#### The Feature Acceptance
+## The Feature Acceptance
 
 "Acceptance" is what we want. When a story is "accepted," it means that it meets all the different requirements for us to ship it to the live site.
 
@@ -56,7 +56,7 @@ Lather, rinse, repeat. This document will explain each step, and then end with s
 
 Writing a good user story is super important! A good story does far more than just state what's being worked on. A good story helps explain the company's goal, the user's intent, and the exact criteria required for making sure that story is ready to ship.
 
-### An example
+## An example
 
 Let's take a look at this story:
 
@@ -71,14 +71,14 @@ How do I QA this? Who does what? Am I logged in? Logged out? How do I know when 
 
 This story could probably be rewritten as:
 
-### Types of Stories
+## Types of Stories
 - Features
 - Bugs
 - Chores
 - Release Flags
 
 
-### Further Reading:
+## Further Reading:
 
 - [Be Good To Your Devs: Write User Stories That Are Easy To Understand](http://pivotallabs.com/write-user-stories-that-are-easy-to-understand/)
 - [How to write Well-Formed User Stories](http://pivotallabs.com/well-formed-stories/)

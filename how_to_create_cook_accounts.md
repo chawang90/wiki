@@ -1,17 +1,17 @@
-Open the production console:
+## Open the production console
 
 ```
 heroku run console -r production
 ```
 
-Create or update the user record.
+## Create or update the user record.
 
 ```ruby
 props = {
   email: '',
-  first_name: '', 
-  last_name: '', 
-  phone_number: '', 
+  first_name: '',
+  last_name: '',
+  phone_number: '',
   handle: '',
   neighborhood: '',
   address_line1: '',
@@ -34,25 +34,27 @@ end
 user.save!
 
 Cook.create!(
-  user: user, 
-  handle: props[:handle], 
-  neighborhood: props[:neighborhood], 
-  address_line1: props[:address_line1], 
-  address_line2: props[:address_line2], 
-  city: props[:city], 
-  state: props[:state], 
-  zipcode: props[:zipcode], 
+  user: user,
+  handle: props[:handle],
+  neighborhood: props[:neighborhood],
+  address_line1: props[:address_line1],
+  address_line2: props[:address_line2],
+  city: props[:city],
+  state: props[:state],
+  zipcode: props[:zipcode],
 )
 ```
 
-Download the cook's avatar from Trello.
+## Download the cook's avatar from Trello.
 
 ![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/e0eeom-b.png)
 
-Crop it to a square (Tal recommends Photoshop) and save two copies:
+## Crop it to a square
+
+ Save two copies:
 
 1. `avatar-small.jpg` –– 150x150px
-2. `avatar.jpg` -- 500x500px (or largest possible)
+2. `avatar.jpg` -- 500x500px (or larger, but don't go crazy. Consider download filesize.)
 
 Connect to our `josephine-production` S3 Bucket (Tal recommends Cyberduck. Zeke recommends [3Hub](http://www.3hubapp.com/) because it's free). Get the credentials with:
 
@@ -70,12 +72,10 @@ open http://josephine.com/cooks/martha-stewart
 
 ![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/ha8s9srs.png)
 
-FINAL STEP
-==========
+## FINAL STEP
 
 Move the Trello card to **Cook Account Complete** and leave a comment. Remember to note whether or not the user had a password, or whether it is "sharing."
 
 ![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/h7__cgbg.png)
 
 SO EASY!
-

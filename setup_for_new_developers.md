@@ -61,7 +61,7 @@ gem install bundler
 bundle
 ```
 
-### Issues installing capybara-webkit
+## Issues installing capybara-webkit
 
 Capybara depends on on Nokogiri, which has all sorts of dependencies. You might see your `bundle install` fail on installing Nokogiri, with this message:
 

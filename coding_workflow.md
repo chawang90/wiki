@@ -4,15 +4,14 @@ tl;dr
 1. **Drag your issue** into "In Progress" when you start working.
 2. **Create a local branch**. Do your work.
 3. Push up to a **remote branch** when you're ready to share.
-4. **Open a pull request** using `hub pull-request -i <issuenumber>` 
+4. **Open a pull request** using `hub pull-request -i <issuenumber>`
 5. **Get feedback** and keep working.
 6. Drag into **Ready For Review** when you're done!
 7. When another person approves your change, **merge your branch** by clicking "Merge Pull Request" (a rebase may be necessary)
 8. **Deploy Your Code**: First check out master and pull it down. Then run `jodeploy production`. This pushes to Github, pushes to Heroku, runs `rake db:migrate`, and sends a Slack notification.
 9. **You're done!** Pat yourself on the back. Or pat someone else :)
 
-Creating an Issue in Zenhub
---------------
+## Creating an Issue in Zenhub
 
 > We use [Zenhub](https://www.zenhub.io/), which is an relatively new product management tool that integrates directly with Github Issues. When you install the chrome extension and your Github Issues will look like this:
 
@@ -20,10 +19,9 @@ New issues get filed into **New Issues**. They can get filed by anyone on the te
 
 ![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/r3keprw-.png)
 
-Draggint 
+Draggint
 
-Github Flow + Review Apps
--------
+## Github Flow + Review Apps
 
 We use the Github's "Github Flow" method.
 
@@ -36,8 +34,7 @@ Everyone on the team can easily access a live, working version of your pull requ
 ![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/049swski.png)
 
 
-Style Guides
-------------
+## Style Guides
 
 Coding style is serious business! Let's be consistent and beautiful.
 
