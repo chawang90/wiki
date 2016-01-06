@@ -19,8 +19,6 @@ New issues get filed into **New Issues**. They can get filed by anyone on the te
 
 ![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/r3keprw-.png)
 
-Draggint
-
 ## Github Flow + Review Apps
 
 We use the Github's "Github Flow" method.
