@@ -31,6 +31,33 @@ Everyone on the team can easily access a live, working version of your pull requ
 
 ![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/049swski.png)
 
+## Git Merging and Rebasing
+
+So you worked on your branch and you're done. But you see that your code is no longer up to date with master.
+
+![](https://photos-1.dropbox.com/t/2/AABWlkMpxZq_E9ZbL_33DnJdE2rI8Zcrpn6tuJGqJprjsQ/12/17893089/png/32x32/1/_/1/2/Screenshot%202016-01-15%2013.21.13.png/EKG7qg0Y8vwGIAIoAg/B8WXSKlpEFGRCfK9qpxqnXklACbCD-IG-zmDNVxx_Ws?size=1280x960&size_mode=3)
+
+You need to rebase!
+
+First, go to master and make sure it's up to date:
+
+```bash
+git checkout master
+git pull --rebase
+```
+
+Great. Now go back to your branch and rebase master on top of it.
+
+```bash
+git checkout my_branch
+git rebase master
+```
+
+Wee! Finally, **force push** your branch back up to the remote. **BE EXTRA CAREFUL THAT YOU'RE NOT ON MASTER WHEN YOU FORCE PUSH.**
+
+```bash
+git push -f origin head
+```
 
 ## Style Guides
 
