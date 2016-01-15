@@ -53,6 +53,48 @@ git checkout my_branch
 git rebase master
 ```
 
+Rebasing will show you your file conflicts.
+```bash
+joy at Joy-Dings-MacBook-Air in ~/josephine on admin-can-create-neighborhood
+$ git rebase master
+First, rewinding head to replay your work on top of it...
+Applying: Admin can navigate to new neighborhood screen.
+Applying: Admin can create neighborhood from new neighborhood screen.
+Using index info to reconstruct a base tree...
+M	config/locales/en.yml
+M	config/routes.rb
+M	db/schema.rb
+<stdin>:38: trailing whitespace.
+<%= simple_form_for(Neighborhood.new, url: admin_neighborhoods_path) do |f| %> 
+<stdin>:165: trailing whitespace.
+feature 'Admin creates new neighborhood' do  
+warning: 2 lines add whitespace errors.
+Falling back to patching base and 3-way merge...
+Removing lib/neighborhood.rb
+Auto-merging db/schema.rb
+CONFLICT (content): Merge conflict in db/schema.rb
+Auto-merging config/routes.rb
+Auto-merging config/locales/en.yml
+Failed to merge in the changes.
+Patch failed at 0002 Admin can create neighborhood from new neighborhood screen.
+The copy of the patch that failed is found in:
+   /Users/joy/josephine/.git/rebase-apply/patch
+
+When you have resolved this problem, run "git rebase --continue".
+If you prefer to skip this patch, run "git rebase --skip" instead.
+To check out the original branch and stop rebasing, run "git rebase --abort".
+```
+Resolve the issue in each file, add them, and continue the rebase. You may have to do this more than once (unfortunately).
+```bash 
+$ git st
+On branch admin-can-create-neighborhood
+Your branch and 'origin/admin-can-create-neighborhood' have diverged,
+and have 90 and 25 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+nothing to commit, working directory clean
+```
+
+
 Wee! Finally, **force push** your branch back up to the remote. **BE EXTRA CAREFUL THAT YOU'RE NOT ON MASTER WHEN YOU FORCE PUSH.**
 
 ```bash
