@@ -33,15 +33,19 @@ Now, click on cooks. The cooks folder holds all of our avatar images for our coo
 ![](https://dl.dropboxusercontent.com/spa/8qjddfa5hktmltv/tk6bdb7c.png)
 
 You're in the right place! You should see something that looks like this: an alphabetized set of folders, each with the cook's name as the name of the folder.
+
 ![](https://dl.dropboxusercontent.com/spa/8qjddfa5hktmltv/r26iz7b3.png)
 
 ## Create a folder for your new cook
 
 Create a new folder. Name it using the cook's handle.
+
 ![](https://dl.dropboxusercontent.com/spa/8qjddfa5hktmltv/m6d_tyzb.png)
 
 ## Upload photos
+
 Click into the folder, and upload your two images.
+
 ![](https://dl.dropboxusercontent.com/spa/8qjddfa5hktmltv/juohznn3.png)
 
 ##Confirm that you're done by visiting the profile:
