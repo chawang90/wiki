@@ -1,49 +1,5 @@
-## Open the production console
-
-```
-heroku run console -r production
-```
-
-## Create or update the user record.
-
-```ruby
-props = {
-  email: '',
-  first_name: '',
-  last_name: '',
-  phone_number: '',
-  handle: '',
-  neighborhood: '',
-  address_line1: '',
-  address_line2: '',
-  city: '',
-  state: 'CA',
-  zipcode: ''
-}
-
-user = User.find_or_initialize_by(email: props[:email])
-user.first_name ||= props[:first_name]
-user.last_name ||= props[:last_name]
-user.phone_number ||= props[:phone_number]
-
-if user.password_digest.blank?
-  puts 'Setting password as "sharing"...'
-  user.password = 'sharing'
-end
-
-user.save!
-
-Cook.create!(
-  user: user,
-  handle: props[:handle],
-  neighborhood: props[:neighborhood],
-  address_line1: props[:address_line1],
-  address_line2: props[:address_line2],
-  city: props[:city],
-  state: props[:state],
-  zipcode: props[:zipcode],
-)
-```
+## Use the cook account tool to add a new cook account. 
+It's at www.josephine.com/admin/cooks/new
 
 ## Download the cook's avatar from Trello.
 
@@ -51,24 +7,44 @@ Cook.create!(
 
 ## Crop it to a square
 
- Save two copies:
+ Save two copies, one named avatar-small.jpg, the other named avatar.jpg. 
+ Hint: One pretty easy to do this in Preview by using the crop tool, together with the Adjust Size tool
 
 1. `avatar-small.jpg` –– 150x150px
 2. `avatar.jpg` -- 500x500px (or larger, but don't go crazy. Consider download filesize.)
 
-Connect to our `josephine-production` S3 Bucket (Tal recommends Cyberduck. Zeke recommends [3Hub](http://www.3hubapp.com/) because it's free). Get the credentials with:
+## Login to our AWS console
 
-```
-heroku config -r production | grep -i aws_
-```
+Go to https://console.aws.amazon.com/console/home
 
-In `josephine-production/cooks`, Create a folder with the `handle` as the name.
+Login with the aws credentials.
 
-Confirm that you're done by visiting the profile:
+## Get to the correct S3 folder
+In the main page, click on S3 under Storage & Content Delivery.
 
-```
-open http://josephine.com/cooks/martha-stewart
-```
+![](https://dl.dropboxusercontent.com/spa/8qjddfa5hktmltv/ggwvj_qt.png)
+
+Then, you'll find yourself on this screen. Click on josephine-production. That's where we store all of our production images.
+
+![](https://dl.dropboxusercontent.com/spa/8qjddfa5hktmltv/zx8jfoe5.png)
+
+Now, click on cooks. The cooks folder holds all of our avatar images for our cooks.
+
+![](https://dl.dropboxusercontent.com/spa/8qjddfa5hktmltv/tk6bdb7c.png)
+
+You're in the right place! You should see something that looks like this: an alphabetized set of folders, each with the cook's name as the name of the folder.
+![](https://dl.dropboxusercontent.com/spa/8qjddfa5hktmltv/r26iz7b3.png)
+
+## Create a folder for your new cook
+
+Create a new folder. Name it using the cook's handle.
+![](https://dl.dropboxusercontent.com/spa/8qjddfa5hktmltv/m6d_tyzb.png)
+
+## Upload photos
+Click into the folder, and upload your two images.
+![](https://dl.dropboxusercontent.com/spa/8qjddfa5hktmltv/juohznn3.png)
+
+##Confirm that you're done by visiting the profile:
 
 ![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/ha8s9srs.png)
 
