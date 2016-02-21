@@ -1,8 +1,8 @@
 # How to Create a Cook Account
 This how-to shows how to create a cook account, upload a photo, and check that it's allll goood.
 
-## 1. Use the cook account tool to add a new cook account. 
-It's at www.josephine.com/admin/cooks/new
+## 1. Use the cook account tool to add a new cook account.
+It's at http://josephine.com/admin/cooks/new
 
 ## 2. Add the cook's photo
 
@@ -12,7 +12,7 @@ It's at www.josephine.com/admin/cooks/new
 
 ### Crop it to a square
 
- Save two copies, one named avatar-small.jpg, the other named avatar.jpg. 
+ Save two copies, one named avatar-small.jpg, the other named avatar.jpg.
  Hint: One pretty easy to do this in Preview by using the crop tool, together with the Adjust Size tool
 
 1. `avatar-small.jpg` –– 150x150px
