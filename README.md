@@ -1,6 +1,5 @@
 # Josephine Team Wiki
 
-## Table of Contents
-- [Engineering](./Engineering)
+- [Product](./Product)
 - [Cook Ops](./Cook Ops)
 
