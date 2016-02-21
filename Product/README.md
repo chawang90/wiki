@@ -2,23 +2,31 @@
 
 For instructions on running this app locally, see [Setup For New Developers](https://github.com/josephine/josephine/wiki/Setup-For-New-Developers) in the wiki.
 
-## Local Documentation
+## Articles
+
+
+Coding:
 
 - [Analytics](Analytics.md)
-- [Deployment](Deployment.md)
-- [Domain Management and DNS](Domain Management and DNS.md)
 - [Feature Flags](Feature Flags.md)
 - [Email and SMS](Email and SMS.md)
 - [Performance](Performance.md)
+- [Removing Customer Credit Cards](Removing Customer Credit Cards.md)
 - [Stock Photos](Stock Photos.md)
 - [Testing Strategy](Testing Strategy.md)
+- [Stripe Integration](Stripe Integration.md)
+
+Workflow:
+
 - [Coding Workflow](Coding Workflow.md)
+- [Deployment](Deployment.md)
 - [Github Issue Label Cheat Sheet](Github Issue Label Cheat Sheet.md)
+
+Etcetera:
+- [Domain Management and DNS](Domain Management and DNS.md)
 - [Reading List](Reading List.md)
-- [Removing Customer Credit Cards](Removing Customer Credit Cards.md)
 - [Setup For New Developers](Setup For New Developers.md)
 - [Setup For New Employees](Setup For New Employees.md)
-- [Stripe Integration](Stripe Integration.md)
 - [The Josephine Reports App](The Josephine Reports App.md)
 
 
