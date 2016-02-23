@@ -1,6 +1,6 @@
 # Josephine
 
-For instructions on running this app locally, see [Setup For New Developers](https://github.com/josephine/josephine/wiki/Setup-For-New-Developers) in the wiki.
+For instructions on running this app locally, see [Setup For New Developers](Setup For New Developers.md) in the wiki.
 
 ## Articles
 
