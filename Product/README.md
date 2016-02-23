@@ -8,13 +8,14 @@ For instructions on running this app locally, see [Setup For New Developers](htt
 Coding:
 
 - [Analytics](Analytics.md)
-- [Feature Flags](Feature Flags.md)
 - [Email and SMS](Email and SMS.md)
+- [Feature Flags](Feature Flags.md)
 - [Performance](Performance.md)
+- [Overlays and Wizard Steps](Overlays and Wizard Steps.md)
 - [Removing Customer Credit Cards](Removing Customer Credit Cards.md)
 - [Stock Photos](Stock Photos.md)
-- [Testing Strategy](Testing Strategy.md)
 - [Stripe Integration](Stripe Integration.md)
+- [Testing Strategy](Testing Strategy.md)
 
 Workflow:
 
