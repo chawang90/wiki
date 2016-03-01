@@ -13,7 +13,8 @@ We have separate routes, controllers, stylesheets (mostly Bootstrap), and layout
 - `app/views/layouts/admin.html.erb`
 - `app/views/admin/*`
 - `app/assets/stylesheets/admin.css.scss`
-- `app/assets/javascripts/admin.js
+- `app/assets/javascripts/admin.js`
+- etc.
 
 We also have integration tests. Examples:
 
