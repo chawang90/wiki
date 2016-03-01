@@ -28,6 +28,8 @@ Etcetera:
 - [Reading List](Reading List.md)
 - [Setup For New Developers](Setup For New Developers.md)
 - [Setup For New Employees](Setup For New Employees.md)
+- [Slack Channel Guide](Slack Channel Guide.md)
+- [The Admin Section](The Admin Section.md)
 - [The Josephine Reports App](The Josephine Reports App.md)
 
 
