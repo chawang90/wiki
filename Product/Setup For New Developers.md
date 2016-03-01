@@ -99,19 +99,19 @@ Download and install the [Heroku Toolbelt](https://toolbelt.heroku.com/)
 Add Heroku git remotes:
 
 ```
-git remote add production git@heroku.com:josephine-members.git
+git remote add production git@heroku.com:josephine-production.git
 git remote add staging git@heroku.com:josephine-staging.git
 git remote add reports git@heroku.com:josephine-reports.git
-git remote add dev git@heroku.com:josephine-dev.git
+git remote add config git@heroku.com:josephine-config.git
 
 ```
 
-Pull down the development configuration. This will add all required environment
+We use a dummy Heroku app (`josephine-config`) to store our shared development configuration. Pull down the development configuration to  add all required environment
 variables to `.env`. See https://github.com/ddollar/heroku-config for more info.
 
 ```sh
 heroku plugins:install https://github.com/ddollar/heroku-config.git
-heroku config:pull -r dev
+heroku config:pull -r config
 ```
 
 ## Shell Helpers for Deployment and Copying Databases
