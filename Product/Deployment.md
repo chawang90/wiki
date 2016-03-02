@@ -203,8 +203,16 @@ To git@heroku.com:josephine-members.git
 Running migration...
 ```
 
-The `jodeploy` command does a lot: it pushes up to Github, then up to Heroku, and then migrates the database. You can see how it works in `.shell-commands`
+The `jodeploy` command does a lot:
+- pushes master to Github
+- pushes master up to Heroku
+- runs migrations
 
----
+You can see how it works in [`.shell-commands`](https://github.com/josephine/www/blob/master/.shell-commands)
+
+4. Celebrate :tada:
+-------
 
 That's it! Congratulations on your deploy.
+
+You should see an otification
