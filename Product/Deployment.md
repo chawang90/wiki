@@ -215,4 +215,4 @@ You can see how it works in [`.shell-commands`](https://github.com/josephine/www
 
 That's it! Congratulations on your deploy.
 
-You should see an otification
+You should see a notification in the `#nerds-heroku` channel in Slack.
