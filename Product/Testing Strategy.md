@@ -41,11 +41,102 @@ end
 
 Note that we use `feature` instead of `describe`, `scenario` instead of `it`, `given` instead of `let`, and `background` instead of `before`. This follows the [recommended Capybara Rspec DSL](https://github.com/jnicklas/capybara#using-capybara-with-rspec) from the docs, with the addition that we still use `context` to describe groupings.
 
-### Capybara Best Practices
+### Test Full Flows
 
 Integration tests are slower than other tests, since they spawn a headless browser with Phantom JS.
 
 For that reason, we should have try to have tests (`scenarios`) that do multiple things, and test for multiple things, in order to have a faster test suite. This is in contrast to the [Single Expectation](http://betterspecs.org/#single) best practive related to unit tests. Unit tests are faster to run.
+
+### Helper Methods
+
+#### When to use helper methods
+
+In integration tests, we'll often use private, local helper methods to hide underlying DOM. An added benefit is that these methods can be reused.
+
+An example:
+
+```ruby
+describe 'User places order' do
+  scenario 'User places an order, enters special enter_special_instructions, and sees stuff.' do
+    visit meal_path(meal)
+    
+    ...
+    
+    choose_item('Mac n Cheez', 2)
+    click_place_order_button
+  end
+  
+  scenario 'User places an order, enters their credit card' do
+    visit meal_path(meal)
+    
+    ...
+    
+    choose_item('Lasagna', 5)
+    click_place_order_button
+  end
+  
+  private
+  
+  def click_place_order_button
+    within '.overlay' do
+      click_button 'Place Order'
+    end
+  end
+  
+ def choose_item(item_name, quantity)
+    row = find_item_row(item_name)
+    within row do
+      select quantity, from: item_name
+    end
+  end
+  
+  def find_item_row(item_name)
+    ...
+  end
+end
+```
+
+#### When not to use helper methods
+
+In larger integration specs (like `user_places_order`), we've started to have "helper method bloat." In many cases, the methods are trivial (no complex DOM stuff) and not being reused. In some ways they're actually causing more confusion than good– magic methods with hidden behavior, having to parse through large files, etc.
+
+Because of that we've started to cut down on our helper method use – a good rule of thumb is: if it's a short, easy-to-understand one-liner and it's not being reused, it's chill to keep it directly in the scenario.
+
+```ruby
+feature 'User views a neighborhood' do
+  background(:each) do
+    create(:meal, title: 'Friendly Neighborhood Meal', neighborhood: Neighborhood.find('downtown-oakland'))
+    create(:meal, title: 'Unfriendly Neighborhood Meal', neighborhood: Neighborhood.find('nopa'))
+  end
+
+  scenario 'User views a neighborhood' do
+    visit '/neighborhoods/downtown-oakland'
+
+    expect(page).to have_content('Friendly Neighborhood Meal')
+    expect(page).to_not have_content('Unfriendly Neighborhood Meal')
+
+    expect_hero_to_have_title('Downtown Oakland')
+  end
+
+  private
+
+  def expect_hero_to_have_title(title)
+    within '.hero' do
+      expect(page).to have_content(title)
+    end
+  end
+end
+
+```
+
+###
+
+2. In integration tests, we've preferred to refer to what the user sees ('Friendly Meal In The Hood') instead of what the programmer sees (meal.title). This helps someone who's reading the spec get real examples of how a user flows through the app (without having to dig into model code). It also helps with false positives –– 
+
+3. I was able to 
+
+4. This feature will work for both logged-in as well as logged-out users, so I removed the `log_in_as_user` clause.
+
 
 ### Smoke-Testing Slack Notifications
 
