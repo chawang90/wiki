@@ -129,15 +129,6 @@ end
 
 ```
 
-###
-
-2. In integration tests, we've preferred to refer to what the user sees ('Friendly Meal In The Hood') instead of what the programmer sees (meal.title). This helps someone who's reading the spec get real examples of how a user flows through the app (without having to dig into model code). It also helps with false positives –– 
-
-3. I was able to 
-
-4. This feature will work for both logged-in as well as logged-out users, so I removed the `log_in_as_user` clause.
-
-
 ### Smoke-Testing Slack Notifications
 
 Slack notifications are enqueued as jobs. If you're testing them out in development, you'll need to run the job worker:
