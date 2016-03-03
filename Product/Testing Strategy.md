@@ -41,7 +41,7 @@ end
 
 Note that we use `feature` instead of `describe`, `scenario` instead of `it`, `given` instead of `let`, and `background` instead of `before`. This follows the [recommended Capybara Rspec DSL](https://github.com/jnicklas/capybara#using-capybara-with-rspec) from the docs, with the addition that we still use `context` to describe groupings.
 
-### Test Full Flows
+### Test Full Scenarios
 
 Integration tests are slower than other tests, since they spawn a headless browser with Phantom JS.
 
