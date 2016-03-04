@@ -5,3 +5,8 @@
     - What to bring
     - How to get to and into the office
     - First day activities
+
+
+- Desk, computer, materials already set up
+- Time set aside for digital set up
+- paperwork & handbook
