@@ -1,5 +1,8 @@
-# Josephine Team Wiki
+# Josephine Internal Wiki
 
-- [Product](./Product)
+- [New Employee Setup] (./NewEmployeeSetup)
+- [Communications] (./Communications)
 - [Tutorials](./Tutorials)
+- [Finances] (./Finances)
+- [Product](./Product)
 
