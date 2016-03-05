@@ -1,0 +1,27 @@
+- Setting Up
+    - Checking email & following instructions
+- Filters
+    - Filter file
+- Signature
+- Groups
+    - team@
+        - contractors@
+        - employees@
+    - hello@ - goes to helpscout
+    - jobs@ - goes to employees
+    - cooks@ - goes to cooks
+    - cooksupport@ - goes to team
+    - accounts@ - goes to team
+    - finances@ - goes to founding team
+    - foundingteam@ - goes to sika, emily, matt, tal, charley
+    - product@ - goes to product team
+    - bizops@ - goes to biz ops team
+    - cookops@ - goes to cook ops team
+- Calendars
+    - OOO
+    - Hiring
+    - Office Hours
+    - Taste Tests
+    - Other team members
+- Canned Responses
+- Managing this Domain
