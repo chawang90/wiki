@@ -1,0 +1,3 @@
+- Joining Trello
+- Creating Trello Boards
+- Best Practices
