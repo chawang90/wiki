@@ -1,4 +1,0 @@
-- Gmail
-    - Filters
-    - Groups
-    - Calendars
