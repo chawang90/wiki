@@ -1,3 +1,11 @@
+- Joining Team
+- Joining Tech Equity
+- Tips:
+    - Starred Channels
+    - Create your own emojis
+    - GitHub notifications
+- Channel Overview
+
 # Slack Channel Guide
 
 A cheatsheet of important Slack channels.
