@@ -1,0 +1,16 @@
+- Apps (table)
+    - Desktop
+        - Drive (download)
+        - Slack (download)
+        - Keynote (if needed)
+        - Microsoft Office (if needed)
+    - Extensions
+        - Rapportive (download)
+        - Streak for Gmail (download)
+        - ZenHub for GitHub (download)
+    - Mobile
+        - Slack
+        - Email
+        - Chrome (lets you sync with bookmarks faster and open desktop tabs)
+        - FB/Twitter/Instagram
+- Communications & Tools (link)
