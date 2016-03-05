@@ -1,0 +1,6 @@
+- Send over GitHub and Trello usernames
+- Sign Paperwork & Handbook
+- Link to HR Handbook and Internal Wiki
+- Update OOO calendar
+- Josephine Meal and Social Event preferences
+- Enroll in Health Insurance & Benefits
