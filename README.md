@@ -1,8 +1,7 @@
 # Josephine Internal Wiki
 
-- [New Employee Setup] (./NewEmployeeSetup)
+- [New Employee Setup] (./New-Employee-Setup)
 - [Communications] (./Communications)
-- [Tutorials](./Tutorials)
-- [Finances] (./Finances)
-- [Product](./Product)
-
+- [How To](./How-To)
+- [Documents] (./Documents)
+- [Admin](./Admin)
