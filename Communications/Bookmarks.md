@@ -1,0 +1,12 @@
+- Bookmarks Uploading & File
+- Core bookmarks list
+    - Josephine Google Drive
+    - Helpscout
+    - Accounts
+    - OKRs
+    - Metrics
+    - Employee Handbook
+    - Trello
+    - Cook Wiki
+    - /admin page
+    - Social
