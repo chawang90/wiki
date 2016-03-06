@@ -11,8 +11,8 @@ When you first join our Slack team you'll have a few default channels. Here's a 
 
 Channel | Purpose
 --- | --- 
-#biz-ops | where biz ops hangs out & posts prioritizations
-#cook-ops | where cook ops hangs out & posts prioritzations
+#biz-ops | Where biz ops hangs out & posts prioritizations
+#cook-ops | Where cook ops hangs out & posts prioritzations
 #product | All things product. Bugs, feature requests, etc. Also where sprint meeting redcaps live.
 #cook-support | Where we see meals being published to our website real time. Also where conversations specific to helping cooks (reviewing their posts, responding to their emails, going to their meals, etc) are had. 
 #helpscout-hello | Our email support channel. We use Helpscout to manage support tickets, hence the clever name. You can click directly on the ticket number to jump right into Helpscout.
@@ -20,8 +20,8 @@ Channel | Purpose
 #signups | Every signup that comes in, ever.
 #reading | Where we share interesting or relevant articles with each other. 
 #fun | Definitely not where anything fun happens. 
-#standup | where we post daily [standups] (https://github.com/josephine/wiki/blob/master/Communications/Meetings.md)
-#retro | where we post [weekly retros] (https://github.com/josephine/wiki/blob/master/Communications/Meetings.md) before meeting 
+#standup | Where we post daily [standups] (https://github.com/josephine/wiki/blob/master/Communications/Meetings.md)
+#retro | Where we post [weekly retros] (https://github.com/josephine/wiki/blob/master/Communications/Meetings.md) before meeting 
 
 ## Posting to #standup and #retro
 ### #standup
