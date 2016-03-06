@@ -1,25 +1,64 @@
-- Joining Team
-- Joining Tech Equity
-- Tips:
-    - Starred Channels
-    - Create your own emojis
-    - GitHub notifications
-- Channel Overview
+# Slack
+Slack is how we do emphemeral communication at Josephine. It also serves as a live stream for orders, support inquiries, stand-ups, retros, and silly things. Great for having quick conversations while keeping everyone in the loop and on the same page.
 
-# Slack Channel Guide
+## Setup
+1. Sign up for our team [here] (https://josephine-meals.slack.com/signup). 
+2. Download the desktop client [here] (https://slack.com/downloads).
+3. Download the mobile app.
 
-A cheatsheet of important Slack channels.
+## Channels
+When you first join our Slack team you'll have a few default channels. Here's a quick run through of what they're for:
 
-### nerds
+Channel | Purpose
+--- | --- 
+#biz-ops | where biz ops hangs out & posts prioritizations
+#cook-ops | where cook ops hangs out & posts prioritzations
+#product | All things product. Bugs, feature requests, etc. Also where sprint meeting redcaps live.
+#cook-support | Where we see meals being published to our website real time. Also where conversations specific to helping cooks (reviewing their posts, responding to their emails, going to their meals, etc) are had. 
+#helpscout-hello | Our email support channel. We use Helpscout to manage support tickets, hence the clever name. You can click directly on the ticket number to jump right into Helpscout.
+#orders | Every order that comes in, ever. 
+#signups | Every signup that comes in, ever.
+#reading | Where we share interesting or relevant articles with each other. 
+#fun | Definitely not where anything fun happens. 
+#standup | where we post daily [standups] (https://github.com/josephine/wiki/blob/master/Communications/Meetings.md)
+#retro | where we post [weekly retros] (https://github.com/josephine/wiki/blob/master/Communications/Meetings.md) before meeting 
 
-Where our developers hang out.
+## Posting to #standup and #retro
+### #standup
 
-### nerds-*
+We post our daily standups in here, ideally by 11am PST. We say (briefly) what we're doing today, and what we did yesterday.
 
-Lots of notifications for different services. Example:
+A real example:
+
+```
+standup 3.4
+============
+
+yesterday I did everything on my standup and:
+— container inventory & zapier
+— drafted 1st meal debrief survey
+
+today:
+— meeting w/ terry
+— start cook team presentation for onboarding
+— review prioritized cook apps and reached out to schedule taste tests
+— finish /cooks page project scope
+— 1:1 w/ charley
+```
+
+### #retro
+
+We use this channel to do retro - we do retros as teams (biz ops, cook ops, product) as well as individually (personal updates, shout-outs/gratitude, emotional recap, etc.)
+
+Team retros use smiley faces :smiley:, :confused:, :disappointed: to organize their work qualitatively. Each team is also responsible for a brief summary of key metrics/releases for the week.
+
+## Product Specific Channels
+
+Our product team also uses Slack for lots of notifications for different services. Example:
 
 channel | description
 --- | ---
+#nerds | Where our developers hang out.
 #nerds-airbrake | Airbrake errors. Fun!
 #nerds-ci | CircleCI tells us about our build status :apple: / :green_apple:
 #nerds-github-issues | New issues created, comments, pull requests, etc.
@@ -29,68 +68,11 @@ channel | description
 #nerds-reading-club | Talking about good articles, books, etc.
 #nerds-heroku | Deployments to production and staging
 
-### #standup
+## Tips
++ If you're interested in keeping tabs on the [Tech Equity] (http://techequity.us/) movement here in Oakland, [join their Slack team] (oaktechequity.slack.com) or by joining another the oaktechequity.slack.com team.
++ Check this out to learn about [formatting in Slack] (https://get.slack.help/hc/en-us/articles/202288908-Formatting-your-messages)
++ Use starred channels and channel specific notification settings to make your life easier on desktop and especially mobile. 
++ You can also adjust preferences so you get notified whenever anyone types your name or certain keywords. Matt probably gets a notification anytime someone types 'cupcakes'.
++ This is super important. You can [make your own Slack emojis] (https://get.slack.help/hc/en-us/articles/206870177-Creating-custom-emoji). 
 
-We post our standups in here, ideally by 11am PST. We say (briefly) what we're doing today, and what we did yesterday.
 
-Most people like to use tickmarks to group their standup together.
-
-A real example:
-
-```
-Standup 2/24
-============
-
-Sorry I didn't standup yesterday. I kind of crashed after lunch and barely made it through the brian/lisette day.
-
-Today I'm working from home and resting as needed.
-
-Yesterday
-- Brian Mason reference calls
-- Brian Mason and Lisete interview
-- Chat with Zeke
-
-Today
-- Had to cancel breakfast with Kai Kaiser (developer)
-- Schedule Jared Volpe reference calls
-- Schedule Daniel Fried
-- Send Brian Mason offer
-- Ana Mason reference calls
-- Work on updating database schema for Josephine Reports (cc @matt)
-```
-
-### #retro
-
-We use this channel to do retro – we do retros for teams (biz ops, cook ops, product) as well as individuals (personal feelings, etc.)
-
-Retros follow the conventional format: :), :|, :(
-
-### #product
-
-We talk about all things product. Everyone in the company is here, and often its where we'll hear about bugs, feature requests, etc.
-
-This channel is also where the product team posts sprint recaps after sprint meetings.
-
-### #cooksupport
-
-Where the cook team hangs out to talk about cook stuff.
-
-### #helpscout-hello
-
-This is our email support channel. We use Helpscout, hence the clever name.
-
-### #orders
-
-Every order that comes in, ever.
-
-### #signups
-
-Every signup that comes in, ever.
-
-### #marketing
-
-The whole company talks about marketing stuff.
-
-### #reading
-
-The whole company talks about cool articles.
