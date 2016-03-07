@@ -1,13 +1,17 @@
 # Manager's Checklist for Setting Up New Employees
 
-Here's everything you need to set up a new employee *before* they arrive for their first day at Josephine!
+Here's everything you need to set up a new employee **before** they arrive for their first day at Josephine!
 
 1. Create an @josephine email address for new team member.
+
    To do this, simply simply click the gear ![gear](https://lh3.googleusercontent.com/OGoJmEwzeVH0DaM5kG2oKS7yFNwjkeLRcc1ylGSicwaj9smx727TraNLXFALog=w72 "Gmail Gear") --> Settings --> Manage this Domain --> Users --> Add Users. 
 2. Add new team member to relevant email lists.
+
     To do this, simply simply click the gear ![gear](https://lh3.googleusercontent.com/OGoJmEwzeVH0DaM5kG2oKS7yFNwjkeLRcc1ylGSicwaj9smx727TraNLXFALog=w72 "Gmail Gear") --> Settings --> Manage this Domain --> Groups --> Add Users. 
-   1. `employees@` or `contractors@`
-   2. `product@`, `cookops@`, or `bizops@`
+    
+    You should only need to add them to two groups: 
+   * `employees@` or `contractors@`
+   * `product@`, `cookops@`, or `bizops@`
 3. Invite them to standing meetings
 
    * Weekly Retro
@@ -16,10 +20,10 @@ Here's everything you need to set up a new employee *before* they arrive for the
 4. Schedule first day onboarding meetings and send appropriate invites
 
    * First hour for getting settled & computer setup
-   * State of the Josephine Business (Matt & Charley)
+   * State of the Josephine Business **(Matt & Charley)**
    * Team-specific lunch
-   * Cook Ops Introduction (Sika & Emily)
-   * Product team Introduction (Tal)
+   * Cook Ops Introduction **(Sika & Emily)**
+   * Product team Introduction **(Tal)**
    * Kick-off meeting
    * Team social event (within first week)
 
