@@ -4,7 +4,7 @@ Some notes on best practices for placing/adding/refunding/canceling orders for c
 
 - Always log in as a user and place the order for them using the website the same way they would. 
 - Don’t forget to log out afterwards.
-- If you need to add an RSVP from the backend, use the orders page (/admin/users/####/orders). Depeneding on the situation you can choose to skip payment or skip customer notifications for the new order. This method should only be used if logging in as a user won't work for some reason.
+- If you need to add an RSVP from the backend, use the orders page (/admin/users/####/orders). Depeneding on the situation, you can choose to skip payment or skip customer notifications for the new order. This method should only be used if logging in as a user won't work for some reason.
 
 
 ## Adding to an existing order
