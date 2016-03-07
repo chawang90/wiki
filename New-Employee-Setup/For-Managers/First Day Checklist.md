@@ -3,10 +3,11 @@
 Here's everything you need to set up a new employee *before* they arrive for their first day at Josephine!
 
 1. Create an @josephine email address for new team member.
+   To do this, simply simply click the gear ![gear](https://lh3.googleusercontent.com/OGoJmEwzeVH0DaM5kG2oKS7yFNwjkeLRcc1ylGSicwaj9smx727TraNLXFALog=w72 "Gmail Gear") --> Settings --> Manage this Domain --> Users --> Add Users. 
 2. Add new team member to relevant email lists.
-
-   * `employees@` or `contractors@`
-   * `product@`, `cookops@`, or `bizops@`
+    To do this, simply simply click the gear ![gear](https://lh3.googleusercontent.com/OGoJmEwzeVH0DaM5kG2oKS7yFNwjkeLRcc1ylGSicwaj9smx727TraNLXFALog=w72 "Gmail Gear") --> Settings --> Manage this Domain --> Groups --> Add Users. 
+   1. `employees@` or `contractors@`
+   2. `product@`, `cookops@`, or `bizops@`
 3. Invite them to standing meetings
 
    * Weekly Retro
@@ -22,5 +23,8 @@ Here's everything you need to set up a new employee *before* they arrive for the
    * Kick-off meeting
    * Team social event (within first week)
 
-4. Send them welcome email
+4. Send them their [welcome email] (https://github.com/josephine/handbook/blob/master/Onboarding%20Documents/Welcome%20to%20Josephine.md)
+5. Set them up in Zenefits as a new employee and trigger Health Insurance & Benefits processes.
+6. Email accountants with completed Direct Deposit form to have them add employee to payroll.
+7. Store all signed documents in Dropbox under appropriate folder. 
 5. Set up their desk, be at the office, and give them a warm welcome & tour when they arrive. 
