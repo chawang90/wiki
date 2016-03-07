@@ -6,10 +6,10 @@ Here are the four standing meetings to keep in mind. Links take you to other art
 
 Meeting | Purpose | Cadence
 --- | --- | ---
-Team Prioritization | Prioritization, status updates, and delegation of team initiatives | Team, Weekly
-[Stand up] (https://github.com/josephine/wiki/blob/master/Communications/Slack.md) | Share what you did yesterday and what's getting done today via Slack | Everyone, Daily
-[Retro] (https://github.com/josephine/wiki/blob/master/Communications/Slack.md) | Qualitatively & quantitatively summarize the week team by team via Slack | Everyone, Weekly
-[1:1s] (https://github.com/josephine/handbook/blob/master/Onboarding%20Documents/One%20on%20Ones.md) | 30-minute in person emotional temp checks with manager | Everyone, Weekly
+Team Prioritization | Prioritization, status updates, and delegation of team initiatives | Weekly by team
+[Stand up] (https://github.com/josephine/wiki/blob/master/Communications/Slack.md) | Share what you did yesterday and what's getting done today | Daily via Slack
+[Retro] (https://github.com/josephine/wiki/blob/master/Communications/Slack.md) | Qualitatively & quantitatively summarize the week team by team | Weekly All-Hands
+[1:1s] (https://github.com/josephine/handbook/blob/master/Onboarding%20Documents/One%20on%20Ones.md) | 30-minute in person emotional temp checks with manager | Weekly in pairs
 
 
 
