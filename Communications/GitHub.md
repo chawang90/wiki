@@ -11,6 +11,11 @@ Github is a developer tool that Tal has convinced us to use for more than just J
 
 ## Josephine Repositories
 
-### /www
+### /www 
+Our code base
+
 ### /handbook
+Our public employee handbook
+
 ### /wiki
+Our internal wiki
