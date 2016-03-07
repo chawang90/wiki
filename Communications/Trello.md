@@ -2,7 +2,7 @@
 
 Trello is a free tool that works really well for visual organization of tasks. In addition to task management & organization, the Cook Ops team also uses Trello to semi-automate our cook onboarding and vetting process (check directly with Emily or Sika to get the most up to date process). 
 
-**[Join the Josephine Trello organization] (https://trello.com/invite/josephinemeals/051bcc54caa8435e9de448c489f380ba).**
+Join the Josephine Trello organization [here] (https://trello.com/invite/josephinemeals/051bcc54caa8435e9de448c489f380ba).
 
 ## Best Practices
 
