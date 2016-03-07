@@ -148,7 +148,7 @@ Then run `aws configure`:
 aws configure
 ```
 
-Enter access key and secret access key. Leave the `region name` and `output format` blank.
+Enter the `access key` and `secret access key` from above. Make the `region name=us-west-1` and leave the `output format` blank.
 
 Copy production database to your development environment:
 
