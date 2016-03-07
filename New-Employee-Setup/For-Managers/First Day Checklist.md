@@ -26,7 +26,7 @@ Here's everything you need to set up a new employee **before** they arrive for t
    * Product team Introduction **(Tal)**
    * Kick-off meeting
    * Team social event (within first week)
-4. Send them their [welcome email] (https://github.com/josephine/handbook/blob/master/Onboarding%20Documents/Welcome%20to%20Josephine.md).
+4. Send them their [welcome email] (https://github.com/josephine/handbook/blob/master/Onboarding%20Documents/Welcome%20to%20Josephine.md) and don't forget to attach their PIIAA, Direct Deposit, and W4 forms. You can find them [here] (https://drive.google.com/a/josephine.com/folderview?id=0B6ZqkCJ2g5r1fnVkU1I5NnJ3WlFaZzlZMjdRckZYZ0htLVdveXRpbHVKaFRMMm9kRVJsSmc&usp=sharing)
 
 5. Set them up in Zenefits as a new employee and trigger Health Insurance & Benefits processes.
 
