@@ -133,7 +133,16 @@ jodeploy production
 
 ## AWS / Assets / Database
 
-Set up AWS for S3 assets. (Get access keys from Tal)
+Set up AWS for S3 assets. To get the access keys, run:
+
+```
+heroku config -r config | grep -i aws
+
+AWS_SECRET_ACCESS_KEY = ...
+AWS_ACCESS_KEY_ID = ...
+```
+
+Then run `aws configure`:
 
 ```
 aws configure
