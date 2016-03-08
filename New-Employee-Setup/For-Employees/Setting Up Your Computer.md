@@ -7,7 +7,10 @@ First, I would download the following desktop applications (mobile isn't a bad i
 + Slack ([download] (https://slack.com/downloads)) ([setup] (https://github.com/josephine/wiki/blob/master/Communications/Slack.md))
 + Chrome ([download] (https://www.google.com/chrome/)) ([setup] (https://github.com/josephine/wiki/blob/master/Communications/Chrome.md))
 
-Next I would familiarize yourself with some of our communications tools and make sure you're able to access Josephine relevant materials there:
+Next, you should set up your Gmail filters and get acquainted with our groups & calendars:
++ [Gmail] (https://github.com/josephine/wiki/blob/master/Communications/Gmail.md)
+
+Lastly, I would familiarize yourself with some of our communications tools and make sure you're able to access Josephine relevant materials there:
 
 + [Trello] (https://github.com/josephine/wiki/blob/master/Communications/Trello.md)
 + [Github] (https://github.com/josephine/wiki/blob/master/Communications/Github.md)
