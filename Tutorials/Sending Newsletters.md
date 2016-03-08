@@ -28,6 +28,7 @@ Click it and the button text will change:
 
 This checkbox is here to make sure you don't accidentally send out a newsletter before it's ready.
 
-Yay
+Viewing emails in Mandrill
 -------
-Yay.
+
+[Go here to see our production email log](https://addons-sso.heroku.com/apps/josephine-production/addons/d0531461-5386-4bb3-9a06-76a6ae94e9d6) (you'll need to be logged in to Heroku first).
