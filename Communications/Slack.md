@@ -70,7 +70,7 @@ channel | description
 
 ## Tips
 + If you're interested in keeping tabs on the [Tech Equity] (http://techequity.us/) movement here in Oakland, [join their Slack team] (oaktechequity.slack.com) or by joining another the oaktechequity.slack.com team.
-+ Check this out to learn about [formatting in Slack]. (https://get.slack.help/hc/en-us/articles/202288908-Formatting-your-messages)
++ Check this out to learn about [formatting in Slack] (https://get.slack.help/hc/en-us/articles/202288908-Formatting-your-messages).
 + Use starred channels and channel specific notification settings to make your life easier on desktop and especially mobile. 
 + You can also adjust preferences so you get notified whenever anyone types your name or certain keywords. Matt probably gets a notification anytime someone types 'cupcakes'.
 + This is super important. You can [make your own Slack emojis] (https://get.slack.help/hc/en-us/articles/206870177-Creating-custom-emoji). 
