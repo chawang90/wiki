@@ -4,3 +4,4 @@
 - Update OOO calendar
 - Josephine Meal and Social Event preferences
 - Enroll in Health Insurance & Benefits
+- Introduce yourself in our Cook FB group
