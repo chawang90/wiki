@@ -74,4 +74,32 @@ Sometimes you need to log into Mandrill to check if an email was sent. Here's ho
 1. You should see all of the emails that were sent:
   ![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/f6r_w355.png)
 
+## Previewing Emails Locally
 
+We use a nifty little gem called Letter Opener (written by Mr. Railscasts, Ryan Bates) to generate HTML templates of all emails we generate locally:
+
+```ruby
+# config/development.rb
+config.action_mailer.delivery_method = :letter_opener
+config.action_mailer.perform_deliveries = true
+```
+
+By default, all emails sent locally will generate local HTML templates that pop up automatically (via `launchy`) any time an email is generated:
+
+```
+meal = Meal.ended.last
+CookMailer.meal_recap_after_first_meal(meal.id).deliver
+
+# => pops open the following HTML file magically!
+#    file:///Users/tal/Projects/josephine-www/tmp/letter_opener/1457643702_5e3268c/rich.html
+```
+
+If you're expecting transactional emails to send through the app (not manually, like above), you'll need to ensure your Delayed::Job queue is running.
+
+```bash
+$ # This is good practice, in case you have 1,000,000 jobs queued up
+$ rake jobs:clear
+
+$ rake jobs:work
+# => running Delayed::Job and sending all emails with FooMailer.delay.mailer_method()
+```
