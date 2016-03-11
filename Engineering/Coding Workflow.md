@@ -11,7 +11,7 @@ tl;dr
 8. **Deploy Your Code**: First check out master and pull it down. Then run `jodeploy production`. This pushes to Github, pushes to Heroku, runs `rake db:migrate`, and sends a Slack notification.
 9. **You're done!** Pat yourself on the back. Or pat someone else :)
 
-## Creating an Issue in Zenhub
+## Zenhub
 
 > We use [Zenhub](https://www.zenhub.io/), which is an relatively new product management tool that integrates directly with Github Issues. When you install the chrome extension and your Github Issues will look like this:
 
@@ -19,13 +19,15 @@ New issues get filed into **New Issues**. They can get filed by anyone on the te
 
 ![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/r3keprw-.png)
 
-## Github Flow + Review Apps
+## Github Flow
 
 We use the Github's "Github Flow" method.
 
 > https://guides.github.com/introduction/flow/
 
 Basically, you start a branch when you work on something new. When you're ready to share it, you create a pull request. When the pull request is ready to be reviewed, share it with the other developers and/or product people on the team.
+
+## Heroku Review Apps
 
 Everyone on the team can easily access a live, working version of your pull request via Heroku Review Apps. For example, pull request #134 (https://github.com/josephine/josephine/pull/134) will be accessible on a staging environment automagically! (https://josephine-staging-pr-134.herokuapp.com/)
 
