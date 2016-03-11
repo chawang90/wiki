@@ -1,0 +1,54 @@
+- Gmail
+    - Filters
+    - Signature/Avatar
+    - Groups
+        - team@
+            - contractors@
+            - employees@
+        - hello@ - goes to helpscout
+        - jobs@ - goes to employees
+        - cooks@ - goes to cooks
+        - cooksupport@ - goes to team
+        - accounts@ - goes to team
+        - finances@ - goes to founding team
+        - foundingteam@ - goes to sika, emily, matt, tal, charley
+        - product@ - goes to product team
+        - bizops@ - goes to biz ops team
+        - cookops@ - goes to cook ops team
+    - Calendars
+        - OOO
+        - Hiring
+        - Office Hours
+        - Taste Tests
+        - Other team members
+    - “Manage this Domain"
+- Apps
+    - Desktop
+        - Drive
+        - Slack
+        - Keynote
+        - Microsoft Office (if needed)
+    - Extensions
+        - Canned Responses for Gmail
+        - Rapportive
+        - Streak for Gmail
+        - ZenHub for GitHub
+    - Mobile
+        - Slack
+        - Email
+        - Chrome (lets you sync with bookmarks faster and open desktop tabs)
+        - FB/Twitter/Instagram
+    - Web
+        - Trello
+- Bookmarks
+    - Core
+        - Josephine Google Drive
+        - Helpscout
+        - Accounts
+        - OKRs
+        - Metrics
+        - Employee Handbook
+        - Trello
+        - Cook Wiki
+        - /admin page
+        - Social
