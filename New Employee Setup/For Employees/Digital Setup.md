@@ -33,6 +33,7 @@
         - Rapportive
         - Streak for Gmail
         - ZenHub for GitHub
+        - Trelabels for Trello
     - Mobile
         - Slack
         - Email
