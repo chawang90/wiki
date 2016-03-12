@@ -11,7 +11,7 @@ First, I would download the following desktop applications (mobile isn't a bad i
 
 You may want to get Grabbox for taking and sharing screenshots easily since we all do a lot of this (connects to your dropbox):
 
-- Grabbox ([download](http://grabbox.devsoft.no/) )
+- Grabbox ([download](http://grabbox.devsoft.no/))
 
 ## Gmail Filters
 
