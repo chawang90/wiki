@@ -9,9 +9,9 @@ First, I would download the following desktop applications (mobile isn't a bad i
 - Slack ([download] (https://slack.com/downloads)) ([setup] (https://github.com/josephine/wiki/blob/master/Communications/Slack.md))
 - Chrome ([download] (https://www.google.com/chrome/)) ([setup] (https://github.com/josephine/wiki/blob/master/Communications/Chrome.md))
 
-You may want to get Grabbox for taking screenshots easily (connects to your dropbox):
+You may want to get Grabbox for taking and sharing screenshots easily since we all do a lot of this (connects to your dropbox):
 
-- Grabbox ([download](http://grabbox.devsoft.no/)
+- Grabbox ([download](http://grabbox.devsoft.no/) )
 
 ## Gmail Filters
 
