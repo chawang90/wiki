@@ -17,7 +17,7 @@ You may want to get Grabbox for taking screenshots easily (connects to your drop
 
 Next, you should set up your Gmail filters and get acquainted with our groups & calendars:
 - [Gmail] (https://github.com/josephine/wiki/blob/master/Communications/Gmail.md)
-- 
+
 ## Communication Tools
 
 Lastly, I would familiarize yourself with some of our communications tools and make sure you're able to access Josephine relevant materials there:
