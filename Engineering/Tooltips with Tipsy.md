@@ -11,4 +11,20 @@ Simply add an element with `rel="tipsy"` and give it a `title`:
 <div rel="tipsy" title="Vegan">VG</div>
 ```
 
+## Glue Code
+
+You can see the code that powers this in `app/assets/javascripts/third_party/tipsy.js`
+
+```javascript
+Josephine.ThirdParty.Tipsy = {
+  init: function() {
+    $('[rel=tipsy]').tipsy({
+      fade: false,
+      gravity: 's',
+      opacity: 1
+    })
+  }
+}
+```
+
 Tada!
