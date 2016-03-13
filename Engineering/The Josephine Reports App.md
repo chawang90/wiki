@@ -51,5 +51,17 @@ Feel free to futz with the schedule by running:
 
 Refer to [this guide](http://www.thegeekstuff.com/2009/06/15-practical-crontab-examples/) if you don't remember `cron`'s annoying syntax. Time is in UTC (7 hours ahead).
 
+## Production Database backups
+
+The `copy_database` script will also create database backups every time a new snapshot is captured.
+
+These backups are stored in the `~/database-backups` directory:
+
+```bash
+[ec2-user@ip-172-31-29-123 ~]$ ls -lh ~/database-backups/
+total 11M
+-rw-rw-r-- 1 ec2-user ec2-user 11M Mar 13 22:30 2016-03-13-22.dump
+```
+
 ## Disclaimer
 This database uses real user data! So please be careful with it, ya jerk.
