@@ -1,0 +1,14 @@
+# Tooltips with Tipsy
+
+How we use the [Tipsy](https://github.com/jaz303/tipsy) library for creating tooltips.
+
+## How to create tooltips
+
+Simply add an element with `rel="tipsy"` and give it a `title`:
+
+```html
+<div rel="tipsy" title="Vegetarian">V</div>
+<div rel="tipsy" title="Vegan">VG</div>
+```
+
+Tada!
