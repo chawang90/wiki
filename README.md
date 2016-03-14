@@ -1,6 +1,7 @@
 # Josephine Internal Wiki
 
 Hello and welcome to our internal wiki! This is a private repository used mostly for documentation of processes. Everything regarding our employee policies can still be found in our public [Employee Handbook] (https://github.com/josephine/handbook). 
+
 Given our status as a very early stage company with constantly fluctuating processes and tools, this list is not meant to be comprehensive. As a team, we should try to invest in the minimum possible amount of documentation, with a specific emphasis for rounds of new hires. With that in mind, here you go: 
 
 ## Table of Contents
