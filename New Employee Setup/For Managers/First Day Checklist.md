@@ -2,10 +2,10 @@
 
 Here's everything you need to set up a new employee **before** they arrive for their first day at Josephine!
 
-1. Create an @josephine email address for new team member.
+1. **Create an @josephine email address for new team member.**
 
    To do this, simply simply click the gear ![gear](https://lh3.googleusercontent.com/OGoJmEwzeVH0DaM5kG2oKS7yFNwjkeLRcc1ylGSicwaj9smx727TraNLXFALog=w72 "Gmail Gear") --> Settings --> Manage this Domain --> Users --> Add Users. 
-2. Add new team member to relevant email lists.
+2. **Add new team member to relevant email lists.**
 
     To do this, simply simply click the gear ![gear](https://lh3.googleusercontent.com/OGoJmEwzeVH0DaM5kG2oKS7yFNwjkeLRcc1ylGSicwaj9smx727TraNLXFALog=w72 "Gmail Gear") --> Settings --> Manage this Domain --> Groups --> Add Users. 
     
@@ -13,15 +13,15 @@ Here's everything you need to set up a new employee **before** they arrive for t
    * `employees@` or `contractors@`
    * `product@`, `cookops@`, or `bizops@`
 
-2. Share them on our [Google Drive] (https://drive.google.com/a/josephine.com/folderview?id=0B-xEryEZORfWMEMxZzBnODhfbXc&usp=sharing)
+2. **Share them on our [Google Drive] (https://drive.google.com/a/josephine.com/folderview?id=0B-xEryEZORfWMEMxZzBnODhfbXc&usp=sharing)**
    * Make sure you're in the Josephine drive folder --> Josephine --> Share --> Enter their @josephine.com email under the 'People' field.
    
-3. Invite them to standing meetings
+3. **Invite them to standing meetings**
 
    * Weekly Retro
    * 1:1s
    * Team Prioritizations
-4. Schedule first day onboarding meetings and send appropriate invites
+4. **Schedule first day onboarding meetings and send appropriate invites**
 
    * First hour for getting settled & computer setup
    * State of the Josephine Business **(Matt & Charley)**
@@ -31,7 +31,7 @@ Here's everything you need to set up a new employee **before** they arrive for t
    * Biz Ops Introduction **(Matt & Charley)**
    * Kick-off meeting
    * Team social event (within first week)
-4. Send them their welcome email
+4. **Send them their welcome email**
    * Link them to the [Welcome to Josephine] (https://github.com/josephine/handbook/blob/master/Onboarding%20Documents/Welcome%20to%20Josephine.md) doc, which sets expectations for their first day. 
    * Don't forget to attach their PIIAA, Direct Deposit, and W4 forms, which you can find [here] (https://drive.google.com/a/josephine.com/folderview?id=0B6ZqkCJ2g5r1fnVkU1I5NnJ3WlFaZzlZMjdRckZYZ0htLVdveXRpbHVKaFRMMm9kRVJsSmc&usp=sharing).
    * Sample copy: 
@@ -45,10 +45,10 @@ Of course, don't hesitate to reach out if any questions come up. Otherwise, we'l
 
      Looking forward, 
 
-5. Set them up in Zenefits as a new employee and trigger Health Insurance & Benefits processes. (or ping Charley to do) 
+5. **Set them up in Zenefits as a new employee and trigger Health Insurance & Benefits processes. (or ping Charley to do)**
 
-6. Email accountants with completed Direct Deposit form to have them add employee to payroll. (or ping Charley to do) 
+6. **Email accountants with completed Direct Deposit form to have them add employee to payroll. (or ping Charley to do)**
 
-7. Send all signed documents to Charley so that he can file them away. 
+7. **Send all signed documents to Charley so that he can file them away.**
 
-5. Set up their desk, be at the office, and give them a warm welcome & tour when they arrive. 
+5. **Set up their desk, be at the office, and give them a warm welcome & tour when they arrive.**
