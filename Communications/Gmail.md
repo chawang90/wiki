@@ -7,10 +7,13 @@ To get set up, follow the instructions that were sent to your personal email pri
 ## Filters
 Email can get really daunting very quickly if you don't have the appropriate filters set up. Your filters will probably evolve to fit your preferences and your role, but we've put together a starter kit of filters that will keep your inbox happy from the get go. 
 
-- [Download Josephine email filters]  (https://drive.google.com/a/josephine.com/file/d/0B6ZqkCJ2g5r1NjNHZzk2NW9FR2M/view?usp=sharing)
-- [Documentation] (https://docs.google.com/a/josephine.com/document/d/1KLA8CnLScG0sZkd4IKvweb1NIsoc0CY0wGi1rloFefk/edit?usp=sharing)
-- To import, simply click the gear ![gear](https://lh3.googleusercontent.com/OGoJmEwzeVH0DaM5kG2oKS7yFNwjkeLRcc1ylGSicwaj9smx727TraNLXFALog=w72 "Gmail Gear") --> Settings --> Filters --> Import. 
-- Make that you select "Apply new filters to existing mail" before importing: ![applyfilters] (http://i.imgur.com/JCTpyjB.png)
+- [Download the Josephine email filters]  (https://drive.google.com/a/josephine.com/file/d/0B6ZqkCJ2g5r1NjNHZzk2NW9FR2M/view?usp=sharing)
+- [Read about what our filters will do] (https://docs.google.com/a/josephine.com/document/d/1KLA8CnLScG0sZkd4IKvweb1NIsoc0CY0wGi1rloFefk/edit?usp=sharing)
+
+
+To import, simply click the gear ![gear](https://lh3.googleusercontent.com/OGoJmEwzeVH0DaM5kG2oKS7yFNwjkeLRcc1ylGSicwaj9smx727TraNLXFALog=w72 "Gmail Gear") --> Settings --> Filters --> Import. 
+
+Make sure that you select "Apply new filters to existing mail" before importing: ![applyfilters] (http://i.imgur.com/JCTpyjB.png)
 
 ## Groups
 
