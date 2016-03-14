@@ -12,6 +12,7 @@ Here's everything you need to set up a new employee **before** they arrive for t
     You should only need to add them to two groups: 
    * `employees@` or `contractors@`
    * `product@`, `cookops@`, or `bizops@`
+2. Share them on our [Google Drive] (https://drive.google.com/a/josephine.com/folderview?id=0B-xEryEZORfWMEMxZzBnODhfbXc&usp=sharing)
 3. Invite them to standing meetings
 
    * Weekly Retro
@@ -32,6 +33,6 @@ Here's everything you need to set up a new employee **before** they arrive for t
 
 6. Email accountants with completed Direct Deposit form to have them add employee to payroll.
 
-7. Store all signed documents in Dropbox under appropriate folder. 
+7. Send all signed documents to Charley so that he can file them away. 
 
 5. Set up their desk, be at the office, and give them a warm welcome & tour when they arrive. 
