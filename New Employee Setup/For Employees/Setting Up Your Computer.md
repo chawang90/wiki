@@ -1,6 +1,6 @@
 # Setting Up Your Computer
 
-Hullo! Presumably you're looking at this page on your new computer and you've already been set up with an @josephine.com email address, as well as added to our Github team. Here are some next steps to help you get set up: 
+Hullo! Presumably you're looking at this page from your new desk at our office and you've already been set up with an @josephine.com email address, access to our Github, and been shared with our Google Drive. Here are some next steps to help you get set up: 
 
 ## Josephine Wiki
 
