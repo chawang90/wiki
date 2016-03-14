@@ -45,9 +45,9 @@ Of course, don't hesitate to reach out if any questions come up. Otherwise, we'l
 
      Looking forward, 
 
-5. Set them up in Zenefits as a new employee and trigger Health Insurance & Benefits processes.
+5. Set them up in Zenefits as a new employee and trigger Health Insurance & Benefits processes. (or ping Charley to do) 
 
-6. Email accountants with completed Direct Deposit form to have them add employee to payroll.
+6. Email accountants with completed Direct Deposit form to have them add employee to payroll. (or ping Charley to do) 
 
 7. Send all signed documents to Charley so that he can file them away. 
 
