@@ -12,7 +12,10 @@ Here's everything you need to set up a new employee **before** they arrive for t
     You should only need to add them to two groups: 
    * `employees@` or `contractors@`
    * `product@`, `cookops@`, or `bizops@`
+
 2. Share them on our [Google Drive] (https://drive.google.com/a/josephine.com/folderview?id=0B-xEryEZORfWMEMxZzBnODhfbXc&usp=sharing)
+   * Make sure you're in the Josephine drive folder --> Josephine --> Share --> Enter their @josephine.com email under the 'People' field.
+   
 3. Invite them to standing meetings
 
    * Weekly Retro
@@ -25,9 +28,22 @@ Here's everything you need to set up a new employee **before** they arrive for t
    * Team-specific lunch
    * Cook Ops Introduction **(Sika & Emily)**
    * Product team Introduction **(Tal)**
+   * Biz Ops Introduction **(Matt & Charley)**
    * Kick-off meeting
    * Team social event (within first week)
-4. Send them their [welcome email] (https://github.com/josephine/handbook/blob/master/Onboarding%20Documents/Welcome%20to%20Josephine.md) and don't forget to attach their PIIAA, Direct Deposit, and W4 forms. You can find them [here] (https://drive.google.com/a/josephine.com/folderview?id=0B6ZqkCJ2g5r1fnVkU1I5NnJ3WlFaZzlZMjdRckZYZ0htLVdveXRpbHVKaFRMMm9kRVJsSmc&usp=sharing)
+4. Send them their welcome email
+   * Link them to the [Welcome to Josephine] (https://github.com/josephine/handbook/blob/master/Onboarding%20Documents/Welcome%20to%20Josephine.md) doc, which sets expectations for their first day. 
+   * Don't forget to attach their PIIAA, Direct Deposit, and W4 forms, which you can find [here] (https://drive.google.com/a/josephine.com/folderview?id=0B6ZqkCJ2g5r1fnVkU1I5NnJ3WlFaZzlZMjdRckZYZ0htLVdveXRpbHVKaFRMMm9kRVJsSmc&usp=sharing).
+   * Sample copy: 
+    
+     ```Hey New Josephine Fam, ```
+
+     ```We're very excited for you to join us on Tuesday! 
+[Here's an overview] (https://github.com/josephine/handbook/blob/master/Onboarding%20Documents/Welcome%20to%20Josephine.md) of what you can expect from your first day. No need to take action on any of this now. 
+Before Tuesday, we just need to know if you'd like us to order you a computer to use for work. We've budgeted computers for everyone on the team, but some of us use our personal setups, so let us know what you prefer!
+Of course, don't hesitate to reach out if any questions come up. Otherwise, we'll plan see you at Oakstop at 10a on Tuesday :) ```
+
+     ```Looking forward, ```
 
 5. Set them up in Zenefits as a new employee and trigger Health Insurance & Benefits processes.
 
