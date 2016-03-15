@@ -253,3 +253,35 @@ Hopefully it's all green! :green_heart: :green_apple: :recycle: :green_book: :sm
 ## Celebrate :tada:
 
 Always important to celebrate.
+
+## Appendix: Fun 
+
+There are some other fun things you may want to do to make your  
+
+```
+# These make your "key repeat" rate faster so you can hold up and 
+defaults write -g InitialKeyRepeat -int 10
+defaults write -g KeyRepeat -int 1
+
+fancy_echo "Remove character recommendation when you hold a button"
+defaults write -g ApplePressAndHoldEnabled -bool false
+
+# Case insensitive tab completion
+sudo touch /etc/inputrc
+sudo chmod 777 /etc/inputrc
+echo "set completion-ignore-case on" >> /etc/inputrc
+
+# Enable the `locate` command
+# This lets you search your computer 
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+
+# Don't ever create .DS_Store files
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+
+# Git Autocompletion
+# Make sure to `source ~/.git-completion.bash` in your bash_profile
+# See: http://code-worrier.com/blog/autocomplete-git/
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+```
+
+Yay!
