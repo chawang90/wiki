@@ -220,13 +220,13 @@ aws configure
 
 Enter the `access key` and `secret access key` from above. Make the region name `us-west-1` and leave the `output format` blank.
 
-Now you can use another Josephine command, `jos3`, to copy over
+Now you can use another Josephine command, `jos3`, to copy S3 assets from the production bucket to the development bucket.
 
 ```
 jos3 development
 ```
 
-## Running the App
+## Run the app
 
 Database? Check. Assets? Check. We're ready to run the server!
 
@@ -236,7 +236,7 @@ rails server
 
 Open [localhost:3000](http://localhost:3000). Voila!
 
-## Running the test suite
+## Run the test suite
 
 We also want to make sure our lovely test suite passes on your machine. Run it!
 
