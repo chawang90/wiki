@@ -136,8 +136,6 @@ Rails 4.2.4
 
 ## Add Heroku Remotes
 
-Download and install the [Heroku Toolbelt](https://toolbelt.heroku.com/)
-
 Add Heroku git remotes:
 
 ```
