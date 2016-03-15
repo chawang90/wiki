@@ -258,7 +258,7 @@ Always important to celebrate.
 
 There are some other fun things you may want to do to make your  
 
-```
+```bash
 # These make your "key repeat" rate faster so you can hold up and 
 defaults write -g InitialKeyRepeat -int 10
 defaults write -g KeyRepeat -int 1
