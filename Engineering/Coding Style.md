@@ -6,7 +6,7 @@ Coding style is serious business! Let's be consistent and beautiful.
 
 - Ruby: https://github.com/bbatsov/ruby-style-guide
 - Rails: https://github.com/bbatsov/rails-style-guide
-- Javascript: https://github.com/airbnb/javascript/tree/master/es5
+- Javascript: https://github.com/feross/standard
 - CSS: https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06
 - Git: https://github.com/agis-/git-style-guide
 
