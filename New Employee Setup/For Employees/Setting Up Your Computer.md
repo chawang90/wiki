@@ -25,6 +25,7 @@ Lastly, I would familiarize yourself with some of our communications tools and m
 
 - [Trello] (https://github.com/josephine/wiki/blob/master/Communications/Trello.md)
 - [Github] (https://github.com/josephine/wiki/blob/master/Communications/Github.md)
+- [Zenhub] (https://www.zenhub.io/) Install the Zenhub Chrome extension
 - [Meetings] (https://github.com/josephine/wiki/blob/master/Communications/Meetings.md)
 
 That should be more than enough to get you through the first hour of set up. After everything above is done, feel free to check out the documents in the [HR folder] (https://github.com/josephine/wiki/tree/master/HR), which should give you more information on relevant internal processes. 
