@@ -42,7 +42,7 @@ Run the following one at a time (and follow the post-install instructions all th
 ```bash
 brew install gpg
 brew install qt
-brew install libiconv
+brew install homebrew/dupes/libiconv
 brew install postgresql
 brew install phantomjs
 
