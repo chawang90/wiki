@@ -256,7 +256,7 @@ Always important to celebrate.
 
 ## Appendix: Fun 
 
-There are some other fun things you may want to do to make your  
+There are some other fun things you may want to do to make your computer more hax0r.
 
 #### Make your terminal bomb
 
@@ -265,7 +265,7 @@ There are some other fun things you may want to do to make your
 defaults write -g InitialKeyRepeat -int 10
 defaults write -g KeyRepeat -int 1
 
-fancy_echo "Remove Apple's character recommendation when you hold a button"
+# Remove Apple's character recommendation when you hold a button
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Case insensitive tab completion
@@ -273,14 +273,14 @@ sudo touch /etc/inputrc
 sudo chmod 777 /etc/inputrc
 echo "set completion-ignore-case on" >> /etc/inputrc
 
-# Enable the `locate` command
-# This lets you search your computer 
+# Enable the `locate` command, which lets you search your computer very fast!
+# See: http://www.linfo.org/locate.html
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
 
-# Don't ever create .DS_Store files
+# Don't ever create .DS_Store files :)
 defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
-# Git Autocompletion
+# Git Autocompletion for branches, commands, etc.
 # Make sure to `source ~/.git-completion.bash` in your bash_profile
 # See: http://code-worrier.com/blog/autocomplete-git/
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
