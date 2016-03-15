@@ -1,14 +1,14 @@
 # Setting Up  Your Development Environment
 
-Oh, development environment setup. Fun! This doc should help make that process as easy as possible.
+Oh, development environment setup. Fun!
 
-If something seems outdated, a step is missing, or something flat out feels wrong, make it better!
+It's best to run through this doc in order, since certain things are dependent on each other! If something seems outdated, a step is missing, or something flat out feels wrong, make it better!
 
-With that, lets jump in.
+Okay, let's jump in!
 
 ## Install Xcode
 
-We begin by installing Xcode, so [do that here](https://developer.apple.com/xcode/download/). Use the App Store link. This may take a while.
+We begin by installing Xcode, so [do that here](https://developer.apple.com/xcode/download/). Use the App Store link. It may take a while.
 
 Once Xcode is set up, you'll also want to install the command line tools.
 
@@ -33,13 +33,11 @@ brew doctor
 
 ... and fix everything it asks you to fix.
 
-Wee! We're ready to install stuff.
-
 ### Install Homebrew Packages
 
 Now that Homebrew's installed, let's `brew install` some stuff.
 
-Run the following one at a time and follow the post-install instructions all the way through!:
+Run the following one at a time (and follow the post-install instructions all the way through!):
 
 ```bash
 brew install gpg
@@ -65,20 +63,32 @@ brew install heroku-toolbelt
 
 Your Github account should have been added to our organization. If it hasn't, ask a developer and they'll add you!
 
-### SSH Keys
+#### SSH Keys
 
 Since this is a new computer, chances are you don't have SSH keys set up. Follow Github's guides here:
 
 - [Generating an SSH key and adding it to ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 - [Adding an SSH key to your Github ccount](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
+#### Clone the repo
+
+Once your SSH keys are set up, you should be able to clone the repo:
+
+```
+git clone git@github.com:josephine/www.git
+```
+
 ## Install RVM and Ruby
 
 We use RVM for managing Ruby versions and gemsets.
 
+#### Install RVM
+
 There's a nice two-liner at [https://rvm.io/](https://rvm.io/). Run it! (and yes, follow all the instructions :)
 
-Now you can `cd` into the josephine directory:
+#### Install our version of Ruby
+
+Now you can `cd` into the `www` directory (`cd` out of it if you're already there)
 
 ```
 cd www
@@ -117,7 +127,9 @@ git remote add config git@heroku.com:josephine-config.git
 
 ## The `josephine-config` app
 
-We use a dummy Heroku app (`josephine-config`) to store our shared development configuration. Pull down the development configuration to  add all required environment
+We use a dummy Heroku app (`josephine-config`) to store our shared development configuration.
+
+Pull down the development configuration toadd all required environment
 variables to `.env`. See https://github.com/ddollar/heroku-config for more info.
 
 ```sh
@@ -125,7 +137,7 @@ heroku plugins:install https://github.com/ddollar/heroku-config.git
 heroku config:pull -r config
 ```
 
-## Install the Josephine shell commands
+## Josephine shell commands
 
 We have a set of shell commands we use to make working on Josephine easier. They're currently in the `.shell-commands` file in the `www` repo, but may get moved in to a separate `josephine-cli` project in the future.
 
