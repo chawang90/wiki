@@ -86,7 +86,7 @@ We use RVM for managing Ruby versions and gemsets.
 
 There's a nice two-liner at [https://rvm.io/](https://rvm.io/). Run it! (and yes, follow all the instructions :)
 
-#### Install ourRuby
+#### Install Ruby
 
 Now you can `cd` into the `www` directory (`cd` out of it if you're already there)
 
@@ -113,13 +113,25 @@ $ which ruby
 /Users/tal/.rvm/rubies/ruby-2.2.3/bin/ruby
 ```
 
-## Installing Gems
+## Install Gems
 
-Install bundler, and run the `bundle` command to install all of our gems:
+Since this is a new machine, you'll need to install bundler:
 
 ```
 gem install bundler
+```
+
+Then install the our gems (make sure you're still in the `www` directory)
+
+```
 bundle
+```
+
+Great! You can check that this worked by running:
+
+```
+$ rails --version
+Rails 4.2.4
 ```
 
 ## Add Heroku Remotes
@@ -147,7 +159,7 @@ heroku plugins:install https://github.com/ddollar/heroku-config.git
 heroku config:pull -r config
 ```
 
-## Josephine shell commands
+## Shell commands
 
 We have a set of shell commands we use to make working on Josephine easier. They're currently in the `.shell-commands` file in the `www` repo, but may get moved in to a separate `josephine-cli` project in the future.
 
