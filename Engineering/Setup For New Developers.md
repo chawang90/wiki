@@ -82,11 +82,11 @@ git clone git@github.com:josephine/www.git
 
 We use RVM for managing Ruby versions and gemsets.
 
-#### Install RVM
+#### RVM
 
 There's a nice two-liner at [https://rvm.io/](https://rvm.io/). Run it! (and yes, follow all the instructions :)
 
-#### Install Ruby
+#### Ruby
 
 Now you can `cd` into the `www` directory (`cd` out of it if you're already there)
 
