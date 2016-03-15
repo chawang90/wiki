@@ -1,23 +1,53 @@
 # Setting Up  Your Development Environment
 
-This setup guide assumes you're using OS X Mavericks.
+Oh, development environment setup. Definitely a rite of passage for brave developers.
 
-## xcode
+Lets jump in, shall we?
 
-Install xcode. When it's done you might need to also install the command line tools with this command:
+## Install Xcode
+
+We begin with installing Xcode, so [do that here](https://developer.apple.com/xcode/download/). Use the App Store link. This may take a while.
+
+Once Xcode is set up, you'll also want to install the command line tools
 
 ```
 xcode-select --install
 ```
 
-## Homebrew
 
-Install homebrew. There's a one-liner at [http://brew.sh/](http://brew.sh/). Read the post-install instructions carefully! Run `brew doctor` until it stops yelling at you.
+## Install Homebrew
 
-Then brew install some stuff needed by rvm and capybara/nokogiri:
+Next, we'll install Homebrew.
+
+Run the one-liner foudn at at [http://brew.sh/](http://brew.sh/). Make sure to **read the post-install instructions all the way through**!
+
+When you're done, run `brew doctor`:
 
 ```
-brew install gpg qt postgresql awscli phantomjs graphviz
+brew doctor
+```
+
+... and fix everything it asks you to fix.
+
+Wee! We're ready to install stuff.
+
+## Install Homebrew Packages
+
+Now that Homebrew's install, run the following **one at a time** (and follow any instructions they have):
+
+```bash
+brew install gpg
+brew install qt
+brew install libiconv
+brew install postgresql
+brew install phantomjs
+brew install openssl
+brew install graphviz
+brew install awscli
+brew install node
+brew install imagemagick
+brew install hub
+brew install heroku-toolbelt
 ```
 
 ## Git
