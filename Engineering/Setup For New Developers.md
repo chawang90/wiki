@@ -1,14 +1,14 @@
 # Setting Up  Your Development Environment
 
-Oh, development environment setup. Definitely a rite of passage for brave developers.
+Oh, development environment setup. Fun! This doc should help make that process as easy as possible.
 
-As a good developer does, leave this document better than you found it! If something seems outdated, a step is missing, or something flat out feels wrong, make it better!
+If something seems outdated, a step is missing, or something flat out feels wrong, make it better!
 
-With that, lets jump in!
+With that, lets jump in.
 
 ## Install Xcode
 
-We begin with installing Xcode, so [do that here](https://developer.apple.com/xcode/download/). Use the App Store link. This may take a while.
+We begin by installing Xcode, so [do that here](https://developer.apple.com/xcode/download/). Use the App Store link. This may take a while.
 
 Once Xcode is set up, you'll also want to install the command line tools.
 
