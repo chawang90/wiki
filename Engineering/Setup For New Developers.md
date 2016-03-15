@@ -150,7 +150,7 @@ git remote add reports git@heroku.com:josephine-reports.git
 We use a dummy Heroku app (`josephine-config`) to store our shared development configuration.
 
 Pull down the development configuration toadd all required environment
-variables to `.env`. See https://github.com/ddollar/heroku-config for more info.
+variables to `.env`. See the [heroku-config](https://github.com/ddollar/heroku-config) project for more info.
 
 ```sh
 heroku plugins:install https://github.com/ddollar/heroku-config.git
