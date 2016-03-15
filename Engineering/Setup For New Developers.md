@@ -101,7 +101,17 @@ ruby-2.x.x is not installed.
 To install do: 'rvm install ruby-2.x.x'
 ```
 
-Go ahead and run the `rvm install` command it gives you.
+Go ahead and run the `rvm install` command it gives you. It installs a fresh version of Ruby (specified in our `.ruby-version` file), so it may take a while.
+
+When it's done, run the following to make sure everything worked:
+
+```
+$ ruby --version
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin14]
+
+$ which ruby
+/Users/tal/.rvm/rubies/ruby-2.2.3/bin/ruby
+```
 
 ## Installing Gems
 
