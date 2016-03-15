@@ -15,6 +15,9 @@ Here's everything you need to set up a new employee **before** they arrive for t
 
 2. **Share them on our [Google Drive] (https://drive.google.com/a/josephine.com/folderview?id=0B-xEryEZORfWMEMxZzBnODhfbXc&usp=sharing)**
    * Make sure you're in the Josephine drive folder --> Josephine --> Share --> Enter their @josephine.com email under the 'People' field.
+
+3. **Add them to Slack**
+    - Go here: https://josephine-meals.slack.com/admin
    
 3. **Invite them to standing meetings**
 
