@@ -147,7 +147,7 @@ git remote add reports git@heroku.com:josephine-reports.git
 git remote add config git@heroku.com:josephine-config.git
 ```
 
-## The `josephine-config` app
+#### The `josephine-config` app
 
 We use a dummy Heroku app (`josephine-config`) to store our shared development configuration.
 
