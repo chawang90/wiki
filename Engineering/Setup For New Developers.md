@@ -258,12 +258,14 @@ Always important to celebrate.
 
 There are some other fun things you may want to do to make your  
 
+#### Make your terminal bomb
+
 ```bash
 # These make your "key repeat" rate faster so you can hold up and 
 defaults write -g InitialKeyRepeat -int 10
 defaults write -g KeyRepeat -int 1
 
-fancy_echo "Remove character recommendation when you hold a button"
+fancy_echo "Remove Apple's character recommendation when you hold a button"
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Case insensitive tab completion
@@ -282,6 +284,48 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 # Make sure to `source ~/.git-completion.bash` in your bash_profile
 # See: http://code-worrier.com/blog/autocomplete-git/
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+
+# Add fun Aliases!
+append_to_bash_profile() {
+  echo "$1" >> ~/.bash_profile
+}
+
+append_to_bash_profile 
+append_to_bash_profile "# Aliases"
+append_to_bash_profile "alias ll='ls -l'"
+append_to_bash_profile "alias lla='ls -la'"
+append_to_bash_profile "alias ..=\"cd ..\""
+
 ```
+
+#### Install apps through Homebrew Cask
+
+Homebrew Cask is a neat way to install binary apps (ie, things with the `.app` prefix) through Homebrew.
+
+To set it up, run the following:
+
+```
+brew tap caskroom/cask
+```
+
+Once that's ready, you can install all of the apps through Cask:
+
+```
+brew cask install sublime-text
+brew cask install atom
+
+brew cask install google-chrome
+brew cask install firefox
+
+brew cask install google-drive
+brew cask install dropbox
+brew cask install cyberduck
+
+brew cask install sizeup
+brew cask install gitx
+```
+
+> #### Note
+> When you install apps through Cask, they're installed into the `/opt` folder (much like Homebrew) and symlinked through the `~/Applications` folder. Some people don't like this, so just figured I'd et you know:
 
 Yay!
