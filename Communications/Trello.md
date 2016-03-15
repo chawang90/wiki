@@ -6,4 +6,4 @@ Join the Josephine organization on Trello [here] (https://trello.com/invite/jose
 
 ## Best Practices
 
-To be honest the company Trello boards aren't as organized as they should be right now, which is probably related to the fact that we don't have many best practices for Trello behavior quite yet. More to come as start leaning on these boards more heavily and seeing what's working and what's not. 
+To be honest, the company Trello boards aren't as organized as they should be right now, which is probably related to the fact that we don't have many best practices for Trello behavior quite yet. More to come as start leaning on these boards more heavily and seeing what's working and what's not. 
