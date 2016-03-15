@@ -280,22 +280,22 @@ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
 # Don't ever create .DS_Store files :)
 defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
-# Git Autocompletion for branches, commands, etc.
-# Make sure to `source ~/.git-completion.bash` in your bash_profile
-# See: http://code-worrier.com/blog/autocomplete-git/
-curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
-
-# Add fun Aliases!
+# The following two steps will use this nifty function
 append_to_bash_profile() {
   echo "$1" >> ~/.bash_profile
 }
 
+# Git Autocompletion for branches, commands, etc.
+# See: http://code-worrier.com/blog/autocomplete-git/
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+append_to_bash_profile "source ~/.git-completion.bash"
+
+# Add fun Aliases!
 append_to_bash_profile 
 append_to_bash_profile "# Aliases"
 append_to_bash_profile "alias ll='ls -l'"
 append_to_bash_profile "alias lla='ls -la'"
 append_to_bash_profile "alias ..=\"cd ..\""
-
 ```
 
 #### Install apps through Homebrew Cask
