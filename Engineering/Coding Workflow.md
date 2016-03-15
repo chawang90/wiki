@@ -1,3 +1,5 @@
+> **NOTE:** This document is a work in progress :)
+
 tl;dr
 ------------
 1. **Create an issue** in Zenhub. It'll give you an issue number, like 145.
