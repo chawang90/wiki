@@ -2,7 +2,7 @@
 
 Oh, development environment setup. Fun!
 
-It's best to run through this doc in order, since certain things are dependent on each other! If something seems outdated, a step is missing, or something flat out feels wrong, make it better!
+It's best to run through this doc in order, since certain things are dependent on each other. If something seems outdated, a step is missing, or something flat out feels wrong, make it better!
 
 Okay, let's jump in!
 
@@ -218,7 +218,7 @@ Then run `aws configure`:
 aws configure
 ```
 
-Enter the `access key` and `secret access key` from above. Make the `region name=us-west-1` and leave the `output format` blank.
+Enter the `access key` and `secret access key` from above. Make the region name `us-west-1` and leave the `output format` blank.
 
 Now you can use another Josephine command, `jos3`, to copy over
 
