@@ -173,17 +173,35 @@ You'll need to refresh your terminal(s) by running:
 source ~/.bash_profile
 ```
 
-## Download the database
+## Database Dump
 
 Good thing you installed the Josephine shell commands in the previous section!
 
 We'll use the `jodb` command to make a local (sanitized) copy of the database. Run the following:
 
+Run the following: 
+
 ```
 jodb development
 ```
 
-## Download S3 assets
+You should now have a local database:
+
+```
+$ psql josephine_members_development
+psql (9.3.4)
+Type "help" for help.
+
+josephine_members_development=# SELECT COUNT(*) FROM meals;
+ count
+-------
+  1008
+(1 row)
+```
+
+Weee!
+
+## S3 Assets
 
 We use AWS for S3 assets. To get the access keys, run:
 
@@ -205,7 +223,7 @@ Enter the `access key` and `secret access key` from above. Make the `region name
 Now you can use another Josephine command, `jos3`, to copy over
 
 ```
-jodb development
+jos3 development
 ```
 
 ## Running the App
