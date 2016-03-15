@@ -134,15 +134,15 @@ $ rails --version
 Rails 4.2.4
 ```
 
-## Add Heroku Remotes
+## Heroku
 
-Add Heroku git remotes:
+We have four Heroku remotes. Add them!
 
 ```
 git remote add production git@heroku.com:josephine-production.git
 git remote add staging git@heroku.com:josephine-staging.git
-git remote add reports git@heroku.com:josephine-reports.git
 git remote add config git@heroku.com:josephine-config.git
+git remote add reports git@heroku.com:josephine-reports.git
 ```
 
 #### The `josephine-config` app
