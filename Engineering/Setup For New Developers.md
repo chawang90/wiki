@@ -86,7 +86,7 @@ We use RVM for managing Ruby versions and gemsets.
 
 There's a nice two-liner at [https://rvm.io/](https://rvm.io/). Run it! (and yes, follow all the instructions :)
 
-#### Install our version of Ruby
+#### Install our Ruby
 
 Now you can `cd` into the `www` directory (`cd` out of it if you're already there)
 
