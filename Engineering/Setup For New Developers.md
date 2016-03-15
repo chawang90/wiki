@@ -61,37 +61,22 @@ brew install hub
 brew install heroku-toolbelt
 ```
 
-## Install RVM and Ruby
-
-We use RVM for managing Ruby versions and gemsets.
-
-There's a nice two-liner at [https://rvm.io/](https://rvm.io/).
-
-Run it! (and yes, follow all the instructions :)
-
-
 ## Get our code!
 
 Your Github account should have been added to our organization. If it hasn't, ask a developer and they'll add you!
 
-Next, you can clone the repo.
+### SSH Keys
 
-Clone the repo:
+Since this is a new computer, chances are you don't have SSH keys set up. Follow Github's guides here:
 
-```
-git clone git@github.com:josephine/www.git
-```
+- [Generating an SSH key and adding it to ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+- [Adding an SSH key to your Github ccount](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
-## Ruby and RVM
+## Install RVM and Ruby
 
-Install rvm. There's a two-liner at [https://rvm.io/](https://rvm.io/) and (you guessed it) read the fine print after it installs!
+We use RVM for managing Ruby versions and gemsets.
 
-You'll want to make sure you have rvm bootstrapper in your `~/.profile`, `.zshrc`, or whatever:
-
-```
-# The post-install instructions may have something more up to date
-source ~/.rvm/scripts/rvm
-```
+There's a nice two-liner at [https://rvm.io/](https://rvm.io/). Run it! (and yes, follow all the instructions :)
 
 Now you can `cd` into the josephine directory:
 
