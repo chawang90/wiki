@@ -12,6 +12,8 @@ Coding style is serious business! Let's be consistent and beautiful.
 
 ## Linters
 
+- [Javascript](https://github.com/feross/standard#text-editor-plugins)
+
 > This is still aspirational and not the case everywhere.
 
 We don't use any linters yet but are hoping to get into that game. The candidates are Rubocop for Ruby, [Standard](https://github.com/feross/standard) for Javascript, and who knows what else.
