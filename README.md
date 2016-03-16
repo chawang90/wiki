@@ -14,7 +14,7 @@ Given our status as a very early stage company with constantly fluctuating proce
    Documentation around our core commmunication tools and channels
 - **[HR](./HR):**
    Documentation around some core HR processes, like filing expenses, enrolling in benefits, etc. 
-- **[How To](./Product-Tutorials):**
+- **[How To](https://github.com/josephine/wiki/tree/master/Product%20Tutorials):**
    Documentation for common admin tasks
 - **[Engineering] (./Engineering):**
    Documentation for everything product team specific
