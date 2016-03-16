@@ -163,3 +163,13 @@ heroku addons:open airbrake -r production
 ```
 
 This should pop open your browser and take you to airbrake.io, and your session will last for a while. If you get logged out, use the above `heroku` command again to log back in.
+
+## Spec Blocks
+
+|Integration|Others|
+|---|---|
+|`feature`|`describe`|
+|`context`|`context`|
+|`given`|`let`|
+|`background`|`before`|
+|`scenario`|`it`|
