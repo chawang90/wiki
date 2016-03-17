@@ -12,7 +12,7 @@ Some great resources:
 
 We use Capybara for integration tests, which has its own verbs for Rspec.
 
-### Write your tests in feature language, not implementation language
+### Write integration tests in "feature language", not "implementation language"
 
 We want our integration tests to be as easy to read as possible, so that developers can read the spec and understand what users do without having to jump around code.
 
@@ -23,6 +23,8 @@ A few examples:
 2. Prefer copy (`'Chapati'`) to selectors (`[data-hidden-item-...]`)
 
 3. Use helper methods to ensure the feature steps are easy to read through (more on this below)
+
+4. Use the appropriate spec blocks – `feature`, `background`, `given`, `scenario`
 
 ### Capybara/Rspec Usage
 
