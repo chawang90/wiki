@@ -2,8 +2,6 @@
 
 In case we need to :phone: each other.
 
-## Contact List
-
 | Name | Phone Number |  Address | City | Zipcode | Notes | 
 | ---  | ------ |  ------ | ---  | ------ | --- | 
 | Charley | (973) 879-6447 | | Berkeley | | | 
