@@ -1,12 +1,12 @@
 # Background Processes
 
-We use DelayedJob
+We use [DelayedJob](https://github.com/collectiveidea/delayed_job). It's nice for somet things, but we've been thinking of moving off of it since it uses the same database as our application database for serializing and pulling jobs.
 
-## Jobs on Development
+## Read This!
 
 By default, **we do not recommend running DelayedJob** unless you're particularly testing for something that will use a background process. Running it will trigger test emails, Slack notifications, etc, and you'll regret all the notifications you get :)
 
-## Clear Your Jobs!
+## Clearing Your Jobs
 
 Whenever you've downloaded the database with `jodb`, you've probably inherited some jobs in your queue without even knowing it. You also create queued up jobs while developing locally.
 
@@ -47,5 +47,3 @@ $ rake jobs:work
 ```
 
 Tada! :tada:
-rake jobs:work
-```
