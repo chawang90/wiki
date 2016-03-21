@@ -26,7 +26,7 @@ Workflow:
 - [Github Issue Label Cheat Sheet](Github Issue Label Cheat Sheet.md)
 
 Etcetera:
-- [Domain Management and DNS](Domain Management and DNS.md)
+- [Domain Management and DNS](DNS.md)
 - [Reading List](Reading List.md)
 - [Removing Customer Credit Cards](Removing Customer Credit Cards.md)
 - [Setup For New Developers](Setup For New Developers.md)
