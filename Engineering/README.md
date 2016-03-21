@@ -31,6 +31,6 @@ Etcetera:
 - [Removing Customer Credit Cards](Removing Customer Credit Cards.md)
 - [Setup For New Developers](Setup For New Developers.md)
 - [Setup For New Employees](Setup For New Employees.md)
-- [Slack Channel Guide](Slack Channel Guide.md)
+- [Slack Channel Guide](https://github.com/josephine/wiki/blob/master/Communications/Slack.md)
 - [The Admin Section](The Admin Section.md)
 - [The Josephine Reports App](The Josephine Reports App.md)
