@@ -19,6 +19,28 @@ First, I would download and then set up the following desktop applications (mobi
 Next, you should set up your Gmail filters and get acquainted with our groups & calendars:
 - [Gmail] (https://github.com/josephine/wiki/blob/master/Communications/Gmail.md)
 
+## Grabbox
+
+[Grabbox](http://grabbox.devsoft.no/) is a nifty tool for sharing screenshots. Once you install it, when you take a screenshot it will do two things:
+
+1. Store the image in Dropbox in a publicly accessible folder
+2. Copy a link to the image (the real PNG file, not a web page!)
+
+This makes it very easy to paste screenshots into Slack, as well as Github.
+
+It's better than the Dropox app's Share Screenshot functionality because the link it copies to your clipboard is a direct link to the image file (PNG), as opposed to a branded web page that houses the PNG. That makes it easier to do this:
+
+```markdown
+![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/-tq3f0b-.png)
+```
+
+The Result:
+
+![](https://dl.dropboxusercontent.com/spa/gcrmzi51hzw4tnm/-tq3f0b-.png)
+
+Yay! Pssss – those are the Dropbox settings you'll need to update in order for this to work.
+
+
 ## Communication Tools
 
 Lastly, I would familiarize yourself with some of our communications tools and make sure you're able to access Josephine relevant materials there:
