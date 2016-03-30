@@ -17,7 +17,7 @@ Documentation around our core commmunication tools and channels.
 
 Documentation around some core HR processes, like filing expenses, enrolling in benefits, etc. 
 
-##[Product TutorialsTo](https://github.com/josephine/wiki/tree/master/Product%20Tutorials)
+##[Product Tutorials](https://github.com/josephine/wiki/tree/master/Product%20Tutorials)
 
 Documentation for common admin tasks in the Josephine Admin section.
 
