@@ -6,8 +6,9 @@ Given our status as a very early stage company with constantly fluctuating proce
 
 ## [New Employee Setup] (./New-Employee-Setup) 
 Currently just two documents for onboarding: 
-  - [Manager checklist for setting up new Employees] (https://github.com/josephine/wiki/blob/master/New%20Employee%20Setup/For%20Managers/First%20Day%20Checklist.md)
   - [Setting up your computer (for Employees)] (https://github.com/josephine/wiki/blob/master/New%20Employee%20Setup/For%20Employees/Setting%20Up%20Your%20Computer.md)
+  - [Setting up new Employees (for Managers)] (https://github.com/josephine/wiki/blob/master/New%20Employee%20Setup/For%20Managers/First%20Day%20Checklist.md)
+
 
 ## [Communications] (./Communications)
 
