@@ -164,7 +164,7 @@ We have a set of shell commands we use to make working on Josephine easier. They
 Add the following to your `.bash_profile` to get the Josephine shell commands:
 
 ```
-source ~/PATH-TO-YOUR-JOSEPHINE-PROJECT/.shell-commands`
+source ~/PATH-TO-YOUR-JOSEPHINE-PROJECT/.shell-commands
 ```
 
 You'll need to refresh your terminal(s) by running:
