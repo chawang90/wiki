@@ -4,7 +4,7 @@ Here's everything you need to set up a new employee **before** they arrive for t
 
 1. **Create an @josephine email address for new team member.**
 
-   To do this, simply simply click the gear ![gear](https://lh3.googleusercontent.com/OGoJmEwzeVH0DaM5kG2oKS7yFNwjkeLRcc1ylGSicwaj9smx727TraNLXFALog=w72 "Gmail Gear") --> Settings --> Manage this Domain --> Users --> Add Users. 
+   To do this, simply simply click the gear ![gear](https://lh3.googleusecrcontent.com/OGoJmEwzeVH0DaM5kG2oKS7yFNwjkeLRcc1ylGSicwaj9smx727TraNLXFALog=w72 "Gmail Gear") --> Settings --> Manage this Domain --> Users --> Add Users. 
 2. **Add new team member to relevant email lists.**
 
     To do this, simply simply click the gear ![gear](https://lh3.googleusercontent.com/OGoJmEwzeVH0DaM5kG2oKS7yFNwjkeLRcc1ylGSicwaj9smx727TraNLXFALog=w72 "Gmail Gear") --> Settings --> Manage this Domain --> Groups --> Add Users. 
@@ -26,6 +26,8 @@ Here's everything you need to set up a new employee **before** they arrive for t
     - Josephine Hiring and Onboarding
     - Josephine Holidays
     - Taste Tests
+
+   Give them the **Make changes AND manage sharing** permissions
    
 3. **Invite them to standing meetings**
 
