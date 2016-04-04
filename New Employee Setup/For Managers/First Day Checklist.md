@@ -59,8 +59,7 @@ Of course, don't hesitate to reach out if any questions come up. Otherwise, we'l
      Looking forward, 
 
 5. **Set them up in Zenefits as a new employee** 
-   * Trigger Health Insurance & Benefits processes
-   * `[Charley to fill out detailed instructions here]`
+   * [Go here and uncheck everything](https://secure.zenefits.com/dashboard/#/onboarding/hireoradd)
 
 6. **Email accountants with completed Direct Deposit form to have them add employee to payroll. (or ping Charley to do)**
 
