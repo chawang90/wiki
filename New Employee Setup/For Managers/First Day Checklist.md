@@ -13,6 +13,8 @@ Here's everything you need to set up a new employee **before** they arrive for t
    * `employees@` or `contractors@`
    * `product@`, `cookops@`, or `bizops@`
 
+    Make them an owner! Always!
+
 2. **Share them on our [Google Drive] (https://drive.google.com/a/josephine.com/folderview?id=0B-xEryEZORfWMEMxZzBnODhfbXc&usp=sharing)**
    * Make sure you're in the Josephine drive folder --> Josephine --> Share --> Enter their @josephine.com email under the 'People' field.
 
