@@ -18,6 +18,12 @@ Here's everything you need to set up a new employee **before** they arrive for t
 
 3. **Add them to Slack**
     - Go here: https://josephine-meals.slack.com/admin
+
+4. **Add them to calendars.**
+    - Josephine OOO
+    - Josephine Hiring and Onboarding
+    - Josephine Holidays
+    - Taste Tests
    
 3. **Invite them to standing meetings**
 
