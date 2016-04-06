@@ -18,6 +18,10 @@ The language meant to make programmers happy.
 - [ruby-lang.org](https://www.ruby-lang.org/en/documentation/) – a comprehensive list of other great Ruby resources.
 - [About Ruby](https://www.ruby-lang.org/en/about/) – an overview of Ruby's mission and history.
 
+## Git
+
+- [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)
+
 ## Rails
 
 ### Beginner
