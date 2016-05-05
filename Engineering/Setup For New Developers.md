@@ -40,15 +40,15 @@ Now that Homebrew's installed, let's `brew install` some stuff.
 Run the following one at a time (and follow the post-install instructions all the way through!):
 
 ```bash
-brew install gpg
-brew install qt
-brew install homebrew/dupes/libiconv
-brew install postgresql
-brew install phantomjs
-
 brew install openssl
 brew unlink openssl
 brew link openssl --force
+
+brew install gpg
+brew install qt
+brew install homebrew/dupes/libiconv
+brew install postgis
+brew install phantomjs
 
 brew install graphviz
 brew install awscli
@@ -101,7 +101,15 @@ ruby-2.x.x is not installed.
 To install do: 'rvm install ruby-2.x.x'
 ```
 
-Go ahead and run the `rvm install` command it gives you. It installs a fresh version of Ruby (specified in our `.ruby-version` file), so it may take a while.
+Instead of running the `rvm install` command it gives you, run:
+
+```
+rvm install 2.2.3 --disable-binary
+rvm use 2.2.3
+rvm osx-ssl-certs update all
+```
+
+instead. It installs a fresh version of Ruby (specified in our `.ruby-version` file), without using pre-build binaries, so it may take a while. This will allow OpenSSL + PostGIS to work with RGeo.
 
 When it's done, run the following to make sure everything worked:
 
@@ -179,7 +187,7 @@ Good thing you installed the Josephine shell commands in the previous section!
 
 We'll use the `jodb` command to make a local (sanitized) copy of the database. Run the following:
 
-Run the following: 
+Run the following:
 
 ```
 jodb development
@@ -203,7 +211,7 @@ Weee!
 
 ## SSL
 
-We run our local web server through HTTPs. 
+We run our local web server through HTTPs.
 
 To set this up, run the `jossl` command.
 
@@ -261,14 +269,14 @@ Hopefully it's all green! :green_heart: :green_apple: :recycle: :green_book: :sm
 
 Always important to celebrate.
 
-## Appendix: Fun 
+## Appendix: Fun
 
 There are some other fun things you may want to do to make your computer more hax0r.
 
 #### Make your terminal bomb
 
 ```bash
-# These make your "key repeat" rate faster so you can hold up and 
+# These make your "key repeat" rate faster so you can hold up and
 defaults write -g InitialKeyRepeat -int 10
 defaults write -g KeyRepeat -int 1
 
@@ -298,7 +306,7 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 append_to_bash_profile "source ~/.git-completion.bash"
 
 # Add fun Aliases!
-append_to_bash_profile 
+append_to_bash_profile
 append_to_bash_profile "# Aliases"
 append_to_bash_profile "alias ll='ls -l'"
 append_to_bash_profile "alias lla='ls -la'"
